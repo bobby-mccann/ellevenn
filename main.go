@@ -77,8 +77,6 @@ var y LocalisationMap
 var yamlPath string
 
 func main() {
-	//yamlFile, err := ioutil.ReadFile("/Users/bobbymccann/Code/secure/conf/app/localisations/fr_FR.yaml")
-	//yamlFile, err := ioutil.ReadFile("/Users/bobbymccann/GolandProjects/ellevenn/example.yaml")
 	yamlPath = os.Args[1]
 	yamlFile, err := ioutil.ReadFile(yamlPath)
 	if err != nil {
