@@ -60,7 +60,7 @@ func main() {
 func GetLocalisation(w http.ResponseWriter, r *http.Request) {
 	vars := mux.Vars(r)
 	context := vars["context"]
-	json.NewEncoder(w).Encode(y[context])
+	_ = json.NewEncoder(w).Encode(y[context])
 }
 
 func PostLocalisation(w http.ResponseWriter, r *http.Request) {
@@ -84,5 +84,5 @@ func PostLocalisation(w http.ResponseWriter, r *http.Request) {
 
 	// Send it back to the client
 	w.WriteHeader(http.StatusCreated)
-	json.NewEncoder(w).Encode(y[l.Context])
+	_ = json.NewEncoder(w).Encode(y[l.Context])
 }
