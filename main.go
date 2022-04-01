@@ -60,7 +60,10 @@ func main() {
 func GetLocalisation(w http.ResponseWriter, r *http.Request) {
 	vars := mux.Vars(r)
 	context := vars["context"]
-	_ = json.NewEncoder(w).Encode(y[context])
+	l := y[context]
+	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
+	w.WriteHeader(http.StatusOK)
+	_ = json.NewEncoder(w).Encode(l)
 }
 
 func PostLocalisation(w http.ResponseWriter, r *http.Request) {
@@ -71,13 +74,14 @@ func PostLocalisation(w http.ResponseWriter, r *http.Request) {
 	if err := r.Body.Close(); err != nil {
 		panic(err)
 	}
-	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
 	var l Localisation
+	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
 	if err := json.Unmarshal(body, &l); err != nil {
 		w.WriteHeader(http.StatusUnprocessableEntity)
 		if err := json.NewEncoder(w).Encode(err); err != nil {
 			panic(err)
 		}
+		return
 	}
 
 	y[l.Context] = l
