@@ -1,12 +1,15 @@
 package main
 
 import (
+	"bytes"
 	"encoding/json"
 	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
 	"net/http"
+	"os"
+	"sort"
 
 	"github.com/gorilla/mux"
 	"gopkg.in/yaml.v3"
@@ -37,11 +40,47 @@ func (ls LocalisationMap) UnmarshalYAML(node *yaml.Node) error {
 	return nil
 }
 
+func (ls LocalisationMap) MarshalYAML() (interface{}, error) {
+	contexts := make([]string, 0, len(ls))
+	for k := range ls {
+		contexts = append(contexts, k)
+	}
+	sort.Strings(contexts)
+	node := yaml.Node{
+		Kind:    yaml.MappingNode,
+		Content: []*yaml.Node{},
+	}
+	for _, key := range contexts {
+		l := ls[key]
+		node.Content = append(node.Content, &yaml.Node{
+			Kind:  yaml.ScalarNode,
+			Value: l.Context,
+		})
+		node.Content = append(node.Content, &yaml.Node{
+			Kind: yaml.MappingNode,
+			Content: []*yaml.Node{
+				{
+					Kind:  yaml.ScalarNode,
+					Value: l.Original,
+				},
+				{
+					Kind:  yaml.ScalarNode,
+					Value: l.Translated,
+				},
+			},
+		})
+	}
+	return node, nil
+}
+
 var y LocalisationMap
+var yamlPath string
 
 func main() {
 	//yamlFile, err := ioutil.ReadFile("/Users/bobbymccann/Code/secure/conf/app/localisations/fr_FR.yaml")
-	yamlFile, err := ioutil.ReadFile("/Users/bobbymccann/GolandProjects/ellevenn/example.yaml")
+	//yamlFile, err := ioutil.ReadFile("/Users/bobbymccann/GolandProjects/ellevenn/example.yaml")
+	yamlPath = os.Args[1]
+	yamlFile, err := ioutil.ReadFile(yamlPath)
 	if err != nil {
 		panic(err)
 	}
@@ -89,4 +128,14 @@ func PostLocalisation(w http.ResponseWriter, r *http.Request) {
 	// Send it back to the client
 	w.WriteHeader(http.StatusCreated)
 	_ = json.NewEncoder(w).Encode(y[l.Context])
+
+	// Write the file to disk
+	bbuf := new(bytes.Buffer)
+	encoder := yaml.NewEncoder(bbuf)
+	encoder.SetIndent(2)
+	err = encoder.Encode(y)
+	if err != nil {
+		panic(err)
+	}
+	_ = ioutil.WriteFile(yamlPath, bbuf.Bytes(), 0644)
 }
