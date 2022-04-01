@@ -2,12 +2,14 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
 	"net/http"
 
 	"github.com/gorilla/mux"
+	"gopkg.in/yaml.v3"
 )
 
 type Localisation struct {
@@ -16,20 +18,49 @@ type Localisation struct {
 	Translated string `json:"translated"`
 }
 
+type LocalisationMap map[string]Localisation
+
+func (ls LocalisationMap) UnmarshalYAML(node *yaml.Node) error {
+	nodes := node.Content
+	var context string
+	for i, n := range nodes {
+		if i%2 == 0 {
+			context = n.Value
+		} else {
+			ls[context] = Localisation{
+				Context:    context,
+				Original:   n.Content[0].Value,
+				Translated: n.Content[1].Value,
+			}
+		}
+	}
+	return nil
+}
+
+var y LocalisationMap
+
 func main() {
+	//yamlFile, err := ioutil.ReadFile("/Users/bobbymccann/Code/secure/conf/app/localisations/fr_FR.yaml")
+	yamlFile, err := ioutil.ReadFile("/Users/bobbymccann/GolandProjects/ellevenn/example.yaml")
+	if err != nil {
+		panic(err)
+	}
+	y = LocalisationMap{}
+	err = yaml.Unmarshal(yamlFile, &y)
+	if err != nil {
+		fmt.Println(err)
+	}
+
 	router := mux.NewRouter().StrictSlash(true)
-	router.HandleFunc("/localisation/{context}", GetLocalisation)
+	router.Methods("GET").Path("/localisation/{context}").HandlerFunc(GetLocalisation)
+	router.Methods("POST").Path("/localisation").HandlerFunc(PostLocalisation)
 	log.Fatal(http.ListenAndServe(":8111", router))
 }
 
 func GetLocalisation(w http.ResponseWriter, r *http.Request) {
 	vars := mux.Vars(r)
 	context := vars["context"]
-	json.NewEncoder(w).Encode(Localisation{
-		Context:    context,
-		Original:   "this is the original text",
-		Translated: "this is the translated text",
-	})
+	json.NewEncoder(w).Encode(y[context])
 }
 
 func PostLocalisation(w http.ResponseWriter, r *http.Request) {
@@ -49,8 +80,9 @@ func PostLocalisation(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 
-	// TODO: write our localisation
+	y[l.Context] = l
 
 	// Send it back to the client
-	json.NewEncoder(w).Encode(l)
+	w.WriteHeader(http.StatusCreated)
+	json.NewEncoder(w).Encode(y[l.Context])
 }
