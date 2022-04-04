@@ -78,13 +78,19 @@
 
     function registerElement(context, args, el) {
         registerListener(context, loc => {
-            let newText = loc.translated;
+            const hasTranslation = loc.translated && loc.translated.length > 0;
+            let newText = hasTranslation? loc.translated : loc.original;
             for (let arg of args) {
                 newText = newText.replace("%s", arg);
             }
             // TODO: handle too many / too few %s
 
             el.innerText = newText;
+            if (!hasTranslation) {
+                el.style.backgroundColor = "RGBA(255, 255, 0, 0.4)";
+            } else {
+                el.style.backgroundColor = "";
+            }
             el.insertBefore(editButton(loc.context), el.firstChild.nextSibling);
         });
     }
