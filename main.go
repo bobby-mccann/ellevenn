@@ -99,6 +99,8 @@ func GetLocalisation(w http.ResponseWriter, r *http.Request) {
 	context := vars["context"]
 	l := y[context]
 	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
+	w.Header().Set("Access-Control-Allow-Origin", "*")
+	w.Header().Set("Access-Control-Allow-Methods", "GET")
 	w.WriteHeader(http.StatusOK)
 	_ = json.NewEncoder(w).Encode(l)
 }
@@ -113,6 +115,8 @@ func PostLocalisation(w http.ResponseWriter, r *http.Request) {
 	}
 	var l Localisation
 	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
+	w.Header().Set("Access-Control-Allow-Origin", "*")
+	w.Header().Set("Access-Control-Allow-Methods", "POST")
 	if err := json.Unmarshal(body, &l); err != nil {
 		w.WriteHeader(http.StatusUnprocessableEntity)
 		if err := json.NewEncoder(w).Encode(err); err != nil {
