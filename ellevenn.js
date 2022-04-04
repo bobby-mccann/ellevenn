@@ -86,7 +86,7 @@
             }
             // TODO: handle too many / too few %s
 
-            el.innerText = newText;
+            el.innerHTML = newText;
             if (!hasTranslation) {
                 el.style.backgroundColor = "RGBA(255, 255, 0, 0.4)";
             } else {
