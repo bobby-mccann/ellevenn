@@ -12,7 +12,7 @@
 (function() {
     'use strict';
     const localisations = {};
-    const elements = {};
+    const listeners = {};
 
     doReplace(document.body);
 
@@ -26,9 +26,8 @@
 
     function setLocalisation(loc) {
         localisations[loc.context] = loc;
-        for (let el of elements[loc.context]) {
-            el.innerText = loc.translated;
-            el.insertBefore(editButton(loc.context), el.firstChild.nextSibling);
+        for (let l of listeners[loc.context]) {
+            l(loc);
         }
     }
 
@@ -65,7 +64,7 @@
             node.parentNode.insertBefore(el, aNode);
             node.parentNode.insertBefore(bNode, el);
 
-            registerElement(context, el);
+            registerElement(context, args, el);
             fetch(`http://localhost:8111/localisation/${context}`)
             .then((response) => {
                 response.json().then(l => {
@@ -77,11 +76,24 @@
         }
     }
 
-    function registerElement(context, el) {
-        if (elements[context] === undefined) {
-            elements[context] = [];
+    function registerElement(context, args, el) {
+        registerListener(context, loc => {
+            let newText = loc.translated;
+            for (let arg of args) {
+                newText = newText.replace("%s", arg);
+            }
+            // TODO: handle too many / too few %s
+
+            el.innerText = newText;
+            el.insertBefore(editButton(loc.context), el.firstChild.nextSibling);
+        });
+    }
+
+    function registerListener(context, onUpdate) {
+        if (listeners[context] === undefined) {
+            listeners[context] = [];
         }
-        elements[context].push(el);
+        listeners[context].push(onUpdate);
     }
 
     function editButton(context) {
