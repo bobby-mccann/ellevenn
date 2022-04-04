@@ -113,7 +113,7 @@
     }
 
     function editLocalisation(context) {
-        const newText = prompt(`Enter a new translation for ${context}:`);
+        const newText = prompt(`Enter Translation:\nEN: ${localisations[context].original}`);
         if (newText !== null && newText.length > 0) {
             const newL = {
                 context: localisations[context].context,
