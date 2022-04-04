@@ -5,6 +5,7 @@
 // @description
 // @author       Bobby McCann
 // @match        https://local.spareroom.co.uk/*
+// @match        https://local.spareroom.fr/*
 // @icon         https://assets.spareroom.co.uk/favicon.png?v=1
 // @grant        none
 // ==/UserScript==
@@ -66,13 +67,13 @@
 
             registerElement(context, args, el);
             fetch(`http://localhost:8111/localisation/${context}`)
-            .then((response) => {
-                response.json().then(l => {
-                    setLocalisation(l);
+                .then((response) => {
+                    response.json().then(l => {
+                        setLocalisation(l);
+                    })
+                        .catch(console.log);
                 })
                 .catch(console.log);
-            })
-            .catch(console.log);
         }
     }
 
