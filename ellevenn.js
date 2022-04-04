@@ -57,7 +57,7 @@
             node.nodeValue = "";
 
             const el = document.createElement('span');
-            el.innerText = context;
+            el.innerText = "loading...";
 
             const bNode = document.createTextNode(before);
             const aNode = document.createTextNode(after);
