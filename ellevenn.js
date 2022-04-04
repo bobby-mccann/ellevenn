@@ -115,9 +115,25 @@
     function editLocalisation(context) {
         const newText = prompt(`Enter a new translation for ${context}:`);
         if (newText !== null && newText.length > 0) {
-            // TODO: call the API
-            localisations[context].translated = newText;
-            setLocalisation(localisations[context]);
+            const newL = {
+                context: localisations[context].context,
+                original: localisations[context].original,
+                translated: newText
+            };
+
+            fetch(`http://localhost:8111/localisation`,
+                {
+                    method: "POST",
+                    body: JSON.stringify(newL)
+                }
+            )
+            .then((response) => {
+                response.json().then(l => {
+                    setLocalisation(l);
+                })
+                .catch(console.log);
+            })
+            .catch(console.log);
         }
     }
 })();
