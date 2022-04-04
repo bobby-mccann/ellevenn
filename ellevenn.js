@@ -41,23 +41,26 @@
             },
         );
 
+        const regex = /\|((?:\w+\.)+\w+) \[(?:([^|]+)\|)*([^|]+)?]\|/;
         let node;
         // For each text node on the page:
         while (node = walker.nextNode()) {
             let text = node.nodeValue;
-            const match = text.match(/\|((\w+\.)+\w+)\[([^|]|)+]\|/);
+            const match = text.match(regex);
             if (!match) {continue;}
-            const context = match[0].substring(1, match[0].length-1);
-            const args = match.slice(1);
+            const context = match[1];
+            const args = match.slice(2).filter(v => v !== undefined);
+
+            const orig = `|${context} [${args.join('|')}]|`;
+            const [before, after] = text.split(orig);
+
+            node.nodeValue = "";
 
             const el = document.createElement('span');
             el.innerText = context;
 
-            node.nodeValue = "";
-
-            const [before, after] = text.split(context);
-            const bNode = document.createTextNode(before.replace('|', ''));
-            const aNode = document.createTextNode(after.replace('|', ''));
+            const bNode = document.createTextNode(before);
+            const aNode = document.createTextNode(after);
             node.parentNode.insertBefore(aNode, node);
             node.parentNode.insertBefore(el, aNode);
             node.parentNode.insertBefore(bNode, el);
