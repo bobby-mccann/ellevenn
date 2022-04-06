@@ -914,7 +914,7 @@ auth.email_short:
 auth.facebook_disclaimer:
   (we'll never post on your timeline without your permission):
 auth.fast_reg:
-  'For fast registration:
+  For fast registration:
 auth.female:
   Female:
 auth.first_name:
@@ -936,7 +936,7 @@ auth.incorrect_email_password:
 auth.last_name:
   Last name:
 auth.log_in:
-  'Log in:
+  Log in:
 auth.log_in_and_send:
   Log in and send:
 auth.logged_in:
@@ -998,7 +998,7 @@ auth.register_and_get_phone:
 auth.register_and_send:
   Register and send:
 auth.register_colon:
-  'Register:
+  Register:
 auth.register_now_for_free:
   Register now for free:
 auth.register_via_email:
@@ -1049,7 +1049,7 @@ component.profile_popup.gender:
 component.profile_popup.have_flat_or_house_share:
   I have a flat or house share:
 component.profile_popup.joined_because:
-  'Joined SpareRoom because:
+  Joined SpareRoom because:
 component.profile_popup.last_active:
   Last active:
 component.profile_popup.looking_for_a_share:
@@ -1113,7 +1113,7 @@ footer.apps.spareroom_apps:
 footer.contact.call_us_on:
   Call us on %s:
 footer.contact.mon_to_fri_hours:
-  'Mon to Fri:
+  Mon to Fri:
 footer.cookie_settings:
   Cookie Settings:
 footer.heading.about_us:
@@ -1233,9 +1233,9 @@ form.search.criteria.to_move_in:
 form.search.criteria.your_preferences:
   Your preferences:
 form.search.duration.maximum:
-  'Maximum:
+  Maximum:
 form.search.duration.minimum:
-  'Minimum:
+  Minimum:
 form.search.heading.advanced_search:
   Advanced search:
 form.search.heading.basic_search:
@@ -1637,7 +1637,7 @@ page.ad_details.an_image_yet:
 page.ad_details.any_pets:
   Any pets?:
 page.ad_details.auto_link:
-  'and we will automatically create a clickable link in your message, just like:
+  and we will automatically create a clickable link in your message, just like:
 page.ad_details.availability:
   Availability:
 page.ad_details.available:
@@ -1705,7 +1705,7 @@ page.ad_details.en_suite_hyphenated:
 page.ad_details.enter_your_message:
   Enter your message:
 page.ad_details.error_with_submission:
-  'There was an error with your submission:
+  There was an error with your submission:
 page.ad_details.existing_user:
   Existing User?:
 page.ad_details.extra_cost:
@@ -1855,7 +1855,7 @@ page.ad_details.preferences:
 page.ad_details.professional:
   Professional:
 page.ad_details.re:
-  'RE:
+  RE:
 page.ad_details.read_more:
   Read more:
 page.ad_details.references:
@@ -1873,7 +1873,7 @@ page.ad_details.room:
 page.ad_details.room_lower:
   room:
 page.ad_details.safety_tip:
-  'TIP:
+  TIP:
 page.ad_details.save:
   Save:
 page.ad_details.saved:
@@ -1893,7 +1893,7 @@ page.ad_details.share:
 page.ad_details.share_ad:
   Share ad:
 page.ad_details.share_which_ad_ref:
-  'Select which advert ref to insert:
+  Select which advert ref to insert:
 page.ad_details.shared_living_room:
   shared living room:
 page.ad_details.shared_property:
@@ -2937,10 +2937,9 @@ panel.search.tooltip.rooms_in_existing_shares:
 panel.stay_safe.heading.stay_safe:
   Stay safe:
 panel.stay_safe.tip.contact_details:
-  ? 'TIP:
-  :
+  TIP:
 panel.stay_safe.tip.view_before_paying:
-  'TIP:
+  TIP:
 panel.upgrade.basic.benefit.double_your_enquiries:
   Double your enquiries:
 panel.upgrade.basic.benefit.free_to_contact:
@@ -2968,15 +2967,15 @@ panel.upgrade.button.upgrade_now:
 panel.upgrade.heading.your_account_is_upgraded:
   Your account is upgraded:
 panel.upgrade.upgraded.expires:
-  'Expires:
+  Expires:
 panel.upgrade.upgraded.listings_upgrade:
   listings upgrade:
 panel.upgrade.upgraded.live_ads:
-  'Live ads:
+  Live ads:
 panel.upgrade.upgraded.one_listing_upgrade:
   1 listing upgrade:
 panel.upgrade.upgraded.package:
-  'Package:
+  Package:
 profile.icon.img_alt.photograph_of:
   Photograph of:
 push_notification.new_message.body:
