@@ -1,0 +1,3155 @@
+advert.broadband:
+  broadband:
+advert.description.error.ad_text.contains_contact_details:
+  ? |-
+    Phone numbers, web addresses and email addresses are not permitted within the body of your advert.
+    This is both to protect your privacy (as contact details will only be shown to registered users) and keep you safe from scammers.
+    Please note that all adverts posted and edited are checked by hand before being published.
+  :
+advert.description.error.ad_text.missing:
+  Please enter your advert text/description:
+advert.description.error.ad_text.too_short:
+  ? Your description must be at least 25 words (or 100 characters) long (currently it is %s characters long). This is to ensure that you get the best possible response and that our listings are of a high quality
+  :
+advert.description.error.ad_title.contains_contact_details:
+  ? |-
+    Phone numbers, web addresses and email addresses are not permitted within the title and description of your advert.
+    This is both to protect your privacy (as contact details will only be shown to registered users) and keep you safe from scammers.
+    Please note that all adverts posted and edited are checked by hand before being published.
+  :
+advert.description.error.ad_title.missing:
+  Please enter your advert title:
+advert.description.error.ad_title.too_long:
+  Advert title is too long:
+advert.description.error.ad_title.wrong_type_of_title:
+  Please enter a title for your advert (as in a short description rather than "%s"):
+advert.img.alt.flatshare:
+  Photo of flatshare in %s:
+advert.img.alt.houseshare:
+  Photo of houseshare in %s:
+advert.img.alt.scp_flat:
+  Photo of flat to rent:
+advert.img.alt.scp_flat_in:
+  Photo of flat to rent in %s:
+advert.img.alt.scp_house:
+  Photo of house to rent:
+advert.img.alt.scp_house_in:
+  Photo of house to rent in %s:
+advert.link.add_to_shortlist:
+  Add this advert to my shortlist:
+advert.link.remove_from_shortlist:
+  Remove advert from my shortlist:
+and:
+  and:
+api_code.abuse_combo_exists:
+  A Combo with those patterns already exists:
+api_code.abuse_pattern_does_not_exist:
+  A pattern used does not exist:
+api_code.abuse_pattern_exists:
+  Pattern already exists:
+api_code.abuse_rule_does_not_exist:
+  A Rule used does not exist:
+api_code.abuse_rule_exists:
+  A rule with those parameters already exists:
+api_code.abuse_set_exists:
+  A Set with those rules already exists:
+api_code.abuse_type_does_not_exist:
+  An abuse type used does not exist:
+api_code.abuse_type_exists:
+  An Abuse Type with that score and description already exists:
+api_code.advert_id_invalid:
+  The advert id is invalid:
+api_code.advert_id_required:
+  An advert id is required:
+api_code.advert_not_eligible:
+  Advert date instated is over 28 days ago (doesn't affect listing quota):
+api_code.apple_sign_in_email_in_use:
+  This email address is already registered:
+api_code.apple_sign_in_error_with_registration:
+  Error registering, please try again:
+api_code.apple_sign_in_error_with_verification:
+  User's data and Apple's did not match:
+api_code.apple_sign_in_invalid_first_name:
+  First Name is invalid:
+api_code.apple_sign_in_invalid_last_name:
+  Last Name is invalid:
+api_code.apple_sign_in_invalid_location:
+  Location is invalid:
+api_code.apple_sign_in_invalid_source:
+  Source is invalid:
+api_code.apple_sign_in_invalid_user_type:
+  Usertype is invalid:
+api_code.apple_sign_in_invalid_where_heard:
+  Where heard is invalid:
+api_code.apple_sign_in_no_email_provided:
+  No regular or private email provided by Apple's token, manage your Apple ID to remove Sign In via SpareRoom and try again:
+api_code.apple_sign_in_required_authorization_code:
+  Authorization Code is required:
+api_code.apple_sign_in_required_code_or_token:
+  Authorization Code or ID Token is required:
+api_code.apple_sign_in_required_source:
+  Source is required:
+api_code.apple_sign_in_required_user_type:
+  Usertype is required:
+api_code.approval_advert_locked_resource:
+  The tool is locked by another user. Please try again shortly:
+api_code.area_idrequired:
+  Area ID is required:
+api_code.area_type_required:
+  Area Type is required:
+api_code.auto_top_up_charge_exceeded:
+  Auto top up charge amount exceeds our limit:
+api_code.auto_top_up_charge_invalid:
+  Auto top up charge amount is invalid:
+api_code.auto_top_up_not_setup:
+  Unable to update auto top up, auto top up has not been setup yet:
+api_code.auto_top_up_state:
+  Auto top up state is invalid:
+api_code.batch_finished:
+  Batch can't be changed once finished:
+api_code.batch_invalid_status:
+  Batch status invalid:
+api_code.blacklist_invalid_reason:
+  Reason for recovery must be between 1 and 5000 characters:
+api_code.blacklist_required_reason:
+  Reason for recovery is required:
+api_code.blacklist_unblacklisted_user:
+  User isn't marked as blacklisted:
+api_code.broken_xslate:
+  Error compiling xslate, possibly a problem with the variables and or functions being used:
+api_code.campaign_limit_hit:
+  You have reached the maximum number of campaigns:
+api_code.cannot_delete_old_event:
+  Cannot delete as event is in the past:
+api_code.cart_not_valid:
+  That isn't a valid shopping cart:
+api_code.dev_data_advert_options_invalid:
+  Advert options is invalid:
+api_code.dev_data_message_threads_advert_invalid:
+  Advert is invalid:
+api_code.dev_data_message_threads_advert_is_not_found:
+  Advert is not found:
+api_code.dev_data_message_threads_advert_required:
+  Advert is required:
+api_code.dev_data_message_threads_sending_user_invalid:
+  Sending user is invalid:
+api_code.dev_data_message_threads_sending_user_is_not_found:
+  Sending user is not found:
+api_code.dev_data_message_threads_sending_user_required:
+  Sending user is required:
+api_code.dev_data_user_options_invalid:
+  User options is invalid:
+api_code.dev_user_user_details_invalid:
+  User details is invalid:
+api_code.down_for_maintenance:
+  Currently down for essential routine maintenance:
+api_code.duplicate_company_name:
+  A company with that name already exists:
+api_code.duplicate_company_reg_number:
+  A company with that registration number already exists:
+api_code.duplicate_prs:
+  A company with that PRS already exists:
+api_code.email_in_use:
+  This email address is already registered:
+api_code.email_not_confirmed:
+  The given mailshot has not been confirmed:
+api_code.error_sending_email:
+  Error sending email to the user:
+api_code.error_with_registration:
+  Error registering, please try again:
+api_code.example_field_invalid:
+  Example API code:
+api_code.experiment_name_invalid:
+  Name is invalid:
+api_code.experiment_name_required:
+  Name is required:
+api_code.experiment_record_exists:
+  Record already exists:
+api_code.experiment_variation_invalid:
+  Variation is invalid:
+api_code.experiment_variation_required:
+  Variation is required:
+api_code.failed_to_apply_invoice_product:
+  Product has already been applied:
+api_code.failed_to_get_email_html:
+  Failed to retrieve the email's HTML:
+api_code.failed_to_import:
+  Failed to import, something isn't right:
+api_code.gdprrtbfusers_email_already_in_use:
+  Original email is already in use by a new user:
+api_code.gdprrtbfusers_email_anonymise_completed:
+  Anonymise process already completed:
+api_code.gdprrtbfusers_email_disable_incomplete:
+  Disable process didn't complete:
+api_code.gdprrtbfusers_email_does_not_exist:
+  Original email must exist in the rtbf table:
+api_code.gdprrtbfusers_email_invalid:
+  Original email can't be @mybunker.com:
+api_code.image_comparison_exceeded_size:
+  Uploaded image is too large:
+api_code.image_comparison_infected_file:
+  Uploaded image is infected:
+api_code.image_comparison_invalid_format:
+  Image format must be png, gif, jpeg, or jpg:
+api_code.interest_already_attached:
+  Interest already attached to user:
+api_code.interest_does_not_exist:
+  Interest does not exist:
+api_code.interest_exists:
+  Interest already exists:
+api_code.interest_limit_exceeded:
+  User interest limit exceeded:
+api_code.interests_invalid_close_variant:
+  Close variant is invalid:
+api_code.interests_invalid_display_name:
+  Display name is invalid:
+api_code.interests_invalid_frequency:
+  Frequency is invalid:
+api_code.interests_invalid_id:
+  Interest ID is invalid:
+api_code.interests_invalid_name:
+  Name is invalid:
+api_code.interests_invalid_status:
+  Status is invalid:
+api_code.interests_invalid_synonym_of:
+  Synonym is invalid:
+api_code.interests_required_id:
+  Interest ID is required:
+api_code.interests_required_name:
+  Name is required:
+api_code.internal_server_error:
+  Sorry, but there was an error. Please wait a few moments and try again.:
+api_code.invalid_abuse_combo_active:
+  Active is invalid:
+api_code.invalid_abuse_combo_name:
+  Name is invalid:
+api_code.invalid_abuse_combo_rules:
+  Rules are invalid:
+api_code.invalid_abuse_description:
+  Description is invalid:
+api_code.invalid_abuse_pattern_id:
+  Pattern ID is invalid:
+api_code.invalid_abuse_set_active:
+  Active is invalid:
+api_code.invalid_abuse_set_name:
+  Name is invalid:
+api_code.invalid_abuse_set_rules:
+  Rules are invalid:
+api_code.invalid_abuse_status:
+  Status is invalid:
+api_code.invalid_abuse_type:
+  Abuse Type is invalid:
+api_code.invalid_abuse_type_description:
+  Description is invalid:
+api_code.invalid_abuse_type_id:
+  Abuse type is invalid:
+api_code.invalid_abuse_type_score:
+  Score are invalid:
+api_code.invalid_advert_change_id:
+  ID is invalid:
+api_code.invalid_advert_change_status:
+  Status is invalid:
+api_code.invalid_advert_contact_details_extract:
+  Contact details extract is invalid:
+api_code.invalid_advert_contact_details_present_in_text:
+  Contact details present in text is invalid:
+api_code.invalid_advert_description:
+  Advert description is invalid:
+api_code.invalid_advert_interests:
+  Interests is invalid:
+api_code.invalid_advert_obscenities_extract:
+  Obscenities extract is invalid:
+api_code.invalid_advert_obscenities_present_in_text:
+  Obscenities present in text is invalid:
+api_code.invalid_advert_scam_flag:
+  Scam flag is invalid:
+api_code.invalid_advert_state:
+  Advert state is invalid:
+api_code.invalid_advert_status:
+  Status is invalid:
+api_code.invalid_advert_title:
+  Advert title is invalid:
+api_code.invalid_advert_type:
+  Advert type is invalid:
+api_code.invalid_affiliate:
+  Affiliate is invalid:
+api_code.invalid_affiliate_id:
+  Invalid affiliate ID:
+api_code.invalid_affiliates_anticipated_offerer_revenue:
+  Affiliate anticipated offerer revenue is invalid:
+api_code.invalid_affiliates_anticipated_reactivated_offerer_revenue:
+  Affiliate anticipated reactivated offerer revenue is invalid:
+api_code.invalid_affiliates_anticipated_reactivated_seeker_revenue:
+  Affiliate anticipated reactivated seeker revenue is invalid:
+api_code.invalid_affiliates_anticipated_seeker_revenue:
+  Affiliate anticipated seeker revenue is invalid:
+api_code.invalid_affiliates_category:
+  Affiliate Category is invalid:
+api_code.invalid_affiliates_commission_type:
+  Affiliate commission type is invalid:
+api_code.invalid_affiliates_description:
+  Affiliate description is invalid:
+api_code.invalid_affiliates_flat_fee:
+  Affiliate flat fee is invalid:
+api_code.invalid_affiliates_name:
+  Affiliate name is invalid:
+api_code.invalid_affiliates_percentage_cut:
+  Affiliate percentage cut is invalid:
+api_code.invalid_affiliates_url:
+  Affiliate URL is invalid:
+api_code.invalid_affiliates_valid_order_period:
+  Affiliate valid order period is invalid:
+api_code.invalid_approval_advert_type:
+  Type is invalid:
+api_code.invalid_area_type:
+  Area Type is invalid:
+api_code.invalid_auth_key:
+  Unable to authenticate request, the auth key is invalid:
+api_code.invalid_auto_top_up:
+  Auto top up is invalid:
+api_code.invalid_bid:
+  Bid is invalid:
+api_code.invalid_bid_type:
+  Bid type is invalid:
+api_code.invalid_caption:
+  Caption is invalid:
+api_code.invalid_charge:
+  Charge is invalid:
+api_code.invalid_company_cmp:
+  Company CMP info is invalid:
+api_code.invalid_company_contact_email:
+  Company contact email address is invalid:
+api_code.invalid_company_contact_first_name:
+  Company contact first name is invalid:
+api_code.invalid_company_contact_last_name:
+  Company contact last name is invalid:
+api_code.invalid_company_contact_position:
+  Company contact position is invalid:
+api_code.invalid_company_contact_priority:
+  Company contact priority setting is invalid:
+api_code.invalid_company_contact_telephone_no:
+  Company contact telephone number is invalid:
+api_code.invalid_company_name:
+  Company name is invalid:
+api_code.invalid_company_reg_number:
+  Company registration number is invalid:
+api_code.invalid_company_type:
+  Company type is invalid:
+api_code.invalid_company_user_id:
+  User identifier is invalid:
+api_code.invalid_company_website_url:
+  Company website URL is invalid:
+api_code.invalid_csrftoken:
+  Invalid request:
+api_code.invalid_daily_budget:
+  Daily budget is invalid:
+api_code.invalid_date_of_birth:
+  Date of birth is invalid:
+api_code.invalid_defaultbid:
+  Default bid is invalid:
+api_code.invalid_email:
+  Email is invalid:
+api_code.invalid_email_comment:
+  Comment is invalid:
+api_code.invalid_email_id:
+  Email ID is invalid or does not exist:
+api_code.invalid_email_limit:
+  Email limit invalid:
+api_code.invalid_email_name:
+  Email name is invalid:
+api_code.invalid_email_not_supported:
+  The given mailshot is not supported:
+api_code.invalid_email_recipients:
+  One or more email recipient is invalid:
+api_code.invalid_email_send_date:
+  Email send date is invalid:
+api_code.invalid_email_send_type:
+  Email import send type is invalid:
+api_code.invalid_email_source:
+  Email import source is invalid:
+api_code.invalid_email_type:
+  Type is invalid:
+api_code.invalid_external_subscription:
+  External subscription is invalid:
+api_code.invalid_external_transaction:
+  External transaction is invalid:
+api_code.invalid_first_name:
+  First name is invalid:
+api_code.invalid_gender:
+  Gender is invalid:
+api_code.invalid_htmlurl:
+  Email imported contains invalid HTML. Possibly a broken URL tag?:
+api_code.invalid_invoice:
+  Invoice is invalid:
+api_code.invalid_iso_language:
+  Language is invalid:
+api_code.invalid_last_name:
+  Last name is invalid:
+api_code.invalid_location:
+  Location is invalid:
+api_code.invalid_mailshot_status:
+  Mailshot status is invalid:
+api_code.invalid_multiple_products:
+  The products you've provided can't be purchased:
+api_code.invalid_name:
+  Name is invalid:
+api_code.invalid_offending_record:
+  Offending record is invalid:
+api_code.invalid_page_joined_from:
+  Page joined from is invalid:
+api_code.invalid_pagination:
+  Invalid pagination:
+api_code.invalid_parent_resource:
+  Parent resource is invalid:
+api_code.invalid_password:
+  Password is invalid:
+api_code.invalid_patch_field:
+  One or more of the given fields is unpatchable:
+api_code.invalid_patch_request:
+  Patch request contained forbidden fields:
+api_code.invalid_pattern_field:
+  Field to Match is invalid:
+api_code.invalid_pattern_pattern:
+  Pattern is invalid:
+api_code.invalid_pattern_pattern_type:
+  Pattern Type is invalid:
+api_code.invalid_pattern_type:
+  Abuse Type is invalid:
+api_code.invalid_payment_context:
+  Context is invalid:
+api_code.invalid_payment_method:
+  Payment method is invalid:
+api_code.invalid_payment_method_external_id:
+  External ID is invalid:
+api_code.invalid_payment_method_service:
+  Service is invalid:
+api_code.invalid_payment_source:
+  Payment Source is invalid:
+api_code.invalid_payment_state:
+  State is invalid:
+api_code.invalid_photo_order:
+  Photo order is invalid:
+api_code.invalid_poll_form:
+  JSON format is invalid. An array of poll objects is required:
+api_code.invalid_product:
+  Product is invalid:
+api_code.invalid_prsexpiry_date:
+  Company prs expiry date is invalid:
+api_code.invalid_prsregistration_no:
+  Company prs registration number is invalid:
+api_code.invalid_prsscheme:
+  Company prs scheme is invalid:
+api_code.invalid_quantity_product:
+  The products you've provided have invalid quantities:
+api_code.invalid_registered_from:
+  Registered from is invalid:
+api_code.invalid_report_additional_details:
+  Additional Details is invalid:
+api_code.invalid_report_category:
+  Category is invalid:
+api_code.invalid_report_content:
+  Content is invalid:
+api_code.invalid_report_sub_categories:
+  SubCategories is invalid:
+api_code.invalid_rule_operator:
+  Operator is invalid:
+api_code.invalid_rule_table:
+  Table is invalid:
+api_code.invalid_service:
+  Service is invalid:
+api_code.invalid_source:
+  Source is invalid:
+api_code.invalid_state:
+  Campaign state is invalid:
+api_code.invalid_status:
+  Status is invalid:
+api_code.invalid_stripe_customer:
+  Customer is invalid:
+api_code.invalid_stripe_event_type:
+  Event type is invalid:
+api_code.invalid_stripe_invoice_id:
+  Invoice ID is invalid:
+api_code.invalid_stripe_plan:
+  Plan is invalid:
+api_code.invalid_stripe_subscription:
+  Subscription is invalid:
+api_code.invalid_stripe_token:
+  Token is invalid:
+api_code.invalid_stripe_transaction:
+  Transaction is invalid:
+api_code.invalid_subscription_id:
+  Subscription ID is invalid:
+api_code.invalid_subscription_state:
+  Subscription state is invalid:
+api_code.invalid_support_ticket_device:
+  Device is invalid:
+api_code.invalid_support_ticket_message:
+  Message is invalid:
+api_code.invalid_support_ticket_subject:
+  Subject is invalid:
+api_code.invalid_transaction_id:
+  Transaction ID is invalid:
+api_code.invalid_transaction_type:
+  Transaction type is invalid:
+api_code.invalid_type:
+  Type is invalid:
+api_code.invalid_upgrade_state:
+  Upgrade state is invalid:
+api_code.invalid_url:
+  URL is invalid:
+api_code.invalid_user:
+  User is invalid:
+api_code.invalid_user_company_lock_company_id:
+  Company ID is invalid:
+api_code.invalid_user_source:
+  Source is invalid:
+api_code.invalid_user_type:
+  Invalid user type:
+api_code.invalid_where_heard:
+  Where heard is invalid:
+api_code.invoice_does_not_exist:
+  Invoice does not exist:
+api_code.invoice_product_already_applied:
+  Product has already been applied:
+api_code.labels_duplicate_label_name:
+  Label with this name already exists for this user:
+api_code.labels_invalid_color:
+  Color is invalid:
+api_code.labels_invalid_user:
+  User is invalid:
+api_code.labels_required_color:
+  Color is required:
+api_code.labels_required_name:
+  Name is required:
+api_code.labels_required_user:
+  User with UUID is required:
+api_code.malformed_form:
+  Inputted form data is invalid:
+api_code.managed_account_message_already_attached:
+  There is already a message attached to this user:
+api_code.managed_account_message_invalid_message:
+  Message is invalid:
+api_code.managed_account_message_invalid_state:
+  State is invalid:
+api_code.managed_account_message_invalid_still_interested_message:
+  Still interested message is invalid:
+api_code.managed_account_message_invalid_still_interested_state:
+  Still interested state is invalid:
+api_code.managed_account_message_required_message:
+  Message is required:
+api_code.managed_account_message_required_state:
+  State is required:
+api_code.managed_account_message_required_still_interested_message:
+  Still interested message is required:
+api_code.managed_account_message_required_still_interested_state:
+  Still interested state is required:
+api_code.managed_account_message_required_user:
+  User id is required:
+api_code.message_threads_does_not_exist:
+  Message thread does not exist:
+api_code.message_threads_invalid_threads:
+  One or more threads is invalid:
+api_code.message_threads_required_threads:
+  Threads field is required:
+api_code.messages_invalid_date_range:
+  The date range provided is too large:
+api_code.messages_too_many_searches_in_progress:
+  Too many searches are currently in progress:
+api_code.method_notallowed:
+  Method not allowed:
+api_code.no_access_to_resource:
+  You do not have access to this resource:
+api_code.no_resource_found:
+  No resource found:
+api_code.no_user_attached:
+  User needs to be attached to the transaction:
+api_code.orders_card_error:
+  There was a problem with your card:
+api_code.orders_customer_creation_failed:
+  Unable to create the customer:
+api_code.orders_insufficient_funds:
+  Insufficient funds available:
+api_code.orders_payment_failed:
+  Unable to make the payment:
+api_code.orders_payment_method_attach_failed:
+  Unable to attach the payment method:
+api_code.orders_required_client_action:
+  Payment requires further authorization:
+api_code.orders_service_unavailable:
+  Our payment provider is currently unavailable.:
+api_code.orders_subscription_required_client_action:
+  Subscription payment requires further authorization:
+api_code.orders_upgrade_required:
+  Unable to purchase without having an active upgrade:
+api_code.orders_validation_failed:
+  Validation of the order failed:
+api_code.parent_resource_not_found:
+  Parent resource doesn't exist:
+api_code.patch_field_required:
+  A valid field is required when submitting a patch request:
+api_code.payment_method_exists:
+  Payment method already exists:
+api_code.photo_limit_exceeded:
+  Adding the requested photos would exceed the photo limit for this resource:
+api_code.photo_url_required:
+  Photo URL is required:
+api_code.polls_audience_required:
+  Audience field is required:
+api_code.polls_choice_list_required:
+  Choice_list field is required:
+api_code.polls_invalid_audience:
+  Audience field is invalid:
+api_code.polls_invalid_choice_list:
+  Choice_list field is invalid:
+api_code.polls_invalid_close_date:
+  Close date field is invalid:
+api_code.polls_invalid_date_range:
+  Date from is greater than date to:
+api_code.polls_invalid_description:
+  Description field is invalid:
+api_code.polls_invalid_footnote:
+  Footnote field is invalid:
+api_code.polls_invalid_leader_id:
+  Leader question id field is invalid:
+api_code.polls_invalid_question:
+  Question field is invalid:
+api_code.polls_invalid_status:
+  Status field is invalid:
+api_code.polls_invalid_title:
+  Title field is invalid:
+api_code.polls_invalid_type:
+  Type field is invalid:
+api_code.polls_question_required:
+  Question field is required:
+api_code.polls_status_required:
+  Status field is required:
+api_code.polls_title_required:
+  Title field is required:
+api_code.polls_type_required:
+  Type field is required:
+api_code.price_does_not_match:
+  Price of products does not match the charged amount:
+api_code.product_not_found:
+  Product is not found:
+api_code.product_not_linked_to_plan:
+  Product is not currently linked to a subscription plan:
+api_code.product_not_valid:
+  That isn't a valid product:
+api_code.required_abuse_combo_name:
+  Name is required:
+api_code.required_abuse_combo_rules:
+  Rules are required:
+api_code.required_abuse_set_name:
+  Name is required:
+api_code.required_abuse_set_rules:
+  Rules are required:
+api_code.required_abuse_status:
+  Status is required:
+api_code.required_abuse_type:
+  Abuse Type is required:
+api_code.required_abuse_type_description:
+  Description is required:
+api_code.required_abuse_type_id:
+  Abuse type ID is required:
+api_code.required_abuse_type_score:
+  Score is required:
+api_code.required_advert_change_id:
+  ID is required:
+api_code.required_advert_change_status:
+  Status is required:
+api_code.required_advert_type:
+  Advert type is required:
+api_code.required_affiliates_name:
+  Affiliate name is required:
+api_code.required_approval_advert_type:
+  Type is required:
+api_code.required_charge:
+  Charge is required:
+api_code.required_company_contact_first_name:
+  Company contact first name is required:
+api_code.required_company_contact_priority:
+  Company contact priority setting is required:
+api_code.required_company_name:
+  Company name is required:
+api_code.required_company_user_id:
+  User identifier is required:
+api_code.required_csrftoken:
+  Invalid request:
+api_code.required_daily_budget:
+  Daily budget is required:
+api_code.required_date_of_birth:
+  Date of birth is required:
+api_code.required_defaultbid:
+  Default bid is required:
+api_code.required_email:
+  Email is required:
+api_code.required_email_comment:
+  Comment is required:
+api_code.required_email_id:
+  Email ID is required:
+api_code.required_email_limit:
+  Email limit is required:
+api_code.required_email_name:
+  Email name is required:
+api_code.required_email_recipients:
+  One or more email recipient required:
+api_code.required_email_send_date:
+  Email send date is required:
+api_code.required_email_send_type:
+  Email import send type is required:
+api_code.required_email_source:
+  Email import source is required:
+api_code.required_external_subscription:
+  External subscription is required:
+api_code.required_external_transaction:
+  External transaction is required:
+api_code.required_first_name:
+  First name is required:
+api_code.required_gender:
+  Gender is required:
+api_code.required_last_name:
+  Last name is required:
+api_code.required_name:
+  Name is required:
+api_code.required_password:
+  Password is required:
+api_code.required_pattern_field:
+  Field to match is required:
+api_code.required_pattern_pattern:
+  Pattern is required:
+api_code.required_pattern_pattern_type:
+  Pattern Type is required:
+api_code.required_pattern_type:
+  Abuse Type is required:
+api_code.required_pay_pal_order_id:
+  PayPal order identifier is required:
+api_code.required_payment_context:
+  Context is required:
+api_code.required_payment_method:
+  Payment method is required:
+api_code.required_payment_method_external_id:
+  External ID is required:
+api_code.required_payment_method_service:
+  Service is required:
+api_code.required_payment_source:
+  Payment Source is required:
+api_code.required_payment_state:
+  State is required:
+api_code.required_product:
+  Product is required:
+api_code.required_products:
+  One or more product is required:
+api_code.required_report_category:
+  Category is required:
+api_code.required_report_content:
+  Content is required:
+api_code.required_rule_field:
+  Field is required:
+api_code.required_rule_operator:
+  Operator is required:
+api_code.required_rule_rule:
+  Rule is required:
+api_code.required_rule_table:
+  Table is required:
+api_code.required_service:
+  Service is required:
+api_code.required_source:
+  Source is required:
+api_code.required_state:
+  Campaign state is required:
+api_code.required_stripe_customer:
+  Customer is required:
+api_code.required_stripe_event_type:
+  Event type is required:
+api_code.required_stripe_invoice_id:
+  Invoice ID is required:
+api_code.required_stripe_plan:
+  Plan is required:
+api_code.required_stripe_subscription:
+  Subscription is required:
+api_code.required_stripe_token:
+  Stripe token is required:
+api_code.required_stripe_transaction:
+  Transaction is required:
+api_code.required_subscription_id:
+  Subscription ID required:
+api_code.required_support_ticket_device:
+  Device is required:
+api_code.required_support_ticket_message:
+  Message is required:
+api_code.required_support_ticket_subject:
+  Subject is required:
+api_code.required_transaction_id:
+  Transaction ID is required:
+api_code.required_transaction_type:
+  Transaction type is required:
+api_code.required_type:
+  Type is required:
+api_code.required_url:
+  URL is required:
+api_code.required_user:
+  User is required:
+api_code.required_user_company_lock_company_id:
+  Company ID is required:
+api_code.required_user_source:
+  Invalid source:
+api_code.required_user_type:
+  User type is required:
+api_code.resource_already_exists:
+  Resource already exists:
+api_code.send_agreement_failure:
+  Agreement sending has failed:
+api_code.session_id_required:
+  Session id is required:
+api_code.session_key_required:
+  Session key is required:
+api_code.session_not_found:
+  Session does not exist:
+api_code.settings_settings_hide_age_invalid:
+  You selected a preference for displaying your age that was invalid:
+api_code.settings_settings_unknown:
+  The setting you tried to change could not be found:
+api_code.sql_file_not_found:
+  Sql file not found:
+api_code.subscription_not_found:
+  Subscription does not exist:
+api_code.too_many_photos:
+  Request must contain 9 photos or fewer:
+api_code.transaction_not_found:
+  Transaction does not exist:
+api_code.unknown_field:
+  Unknown field:
+api_code.unsupported_email_source:
+  We do not currently support that source for importing emails:
+api_code.upgrade_not_found:
+  Upgrade not found:
+api_code.upgrade_required:
+  Upgrade required:
+api_code.user_idrequired:
+  No User ID Provided:
+api_code.user_not_linked_to_customer:
+  User is not linked to a Stripe customer:
+api_code.user_not_logged_in:
+  You need to be signed in:
+api_code.uuidnot_found:
+  The user identifier does not match a user:
+api_code.verification_failure:
+  Verification update has failed:
+api_code.videos_invalid_ignore_reason:
+  Ignore reason is invalid:
+api_code.videos_invalid_review_state:
+  Review state is invalid:
+api_code.videos_invalid_video_provider:
+  Video provider is invalid:
+api_code.viewing_cancellation_error:
+  You cannot send any other values when cancelling a viewing:
+api_code.viewing_duplicate_viewing:
+  These users already have an active viewing:
+api_code.viewing_invalid_status:
+  Status is invalid:
+api_code.viewing_invalid_times:
+  Start time must be after the current time and end time must be after the start time:
+api_code.viewing_message_thread_not_found:
+  Message thread matching users is not found:
+api_code.viewing_not_occured:
+  The viewing has not yet occured and so the seeker attendance cannot yet be set:
+api_code.viewing_required_end_time:
+  End time is required:
+api_code.viewing_required_message_thread:
+  Message thread is required:
+api_code.viewing_required_offerer:
+  Offerer is required:
+api_code.viewing_required_seeker:
+  Seeker is required:
+api_code.viewing_required_start_time:
+  Start time is required:
+api_code.viewing_user_operation_not_permitted:
+  Changing that value is not permitted for the currently logged in user:
+app.apple_store.alt_text.download_iOS_app:
+  Download SpareRoom iOS App via iPhone app store:
+app.download_our_free_app:
+  Download our free app:
+app.google_play.alt_text.download_android_app:
+  Download SpareRoom Android App via Google play store:
+auth.agreement_html:
+  Agreement text:
+auth.already_registered_logged_in:
+  You are already registered & currently logged in:
+auth.cancel:
+  Cancel:
+auth.choose_a_password:
+  Choose a password:
+auth.click_to_login:
+  Click to login:
+auth.confirm_email:
+  Confirm email:
+auth.confirm_password:
+  Confirm password:
+auth.confirm_reg.bullet1:
+  Check your junk / spam folder:
+auth.confirm_reg.bullet2:
+  Add %s to your address book:
+auth.confirm_reg.bullet3:
+  Resend the confirmation email:
+auth.confirm_reg.confirm_email:
+  Confirm your email to activate your account.:
+auth.confirm_reg.email_sent_to:
+  Email sent to %s:
+auth.confirm_reg.help:
+  Help:
+auth.confirm_reg.no_email:
+  Didn't receive an email?:
+auth.connect_with_facebook:
+  Connect with Facebook:
+auth.continue:
+  Continue:
+auth.continue_with_facebook:
+  Continue with Facebook:
+auth.create_an_account:
+  Create an account:
+auth.email:
+  Email address:
+auth.email_short:
+  Email:
+auth.facebook_disclaimer:
+  (we'll never post on your timeline without your permission):
+auth.fast_reg:
+  'For fast registration:
+auth.female:
+  Female:
+auth.first_name:
+  First name:
+auth.forgot_password:
+  Forgot password?:
+auth.forgot_your_password:
+  Forgot your password:
+auth.form_new_share:
+  I'd like to find people to form a new share:
+auth.form_terms:
+  Register terms:
+auth.gender:
+  Gender:
+auth.hear_about_us:
+  Where did you hear about us?:
+auth.incorrect_email_password:
+  The email or password you entered is incorrect:
+auth.last_name:
+  Last name:
+auth.log_in:
+  'Log in:
+auth.log_in_and_send:
+  Log in and send:
+auth.logged_in:
+  You are logged in:
+auth.login:
+  Log In:
+auth.login.html_title:
+  Log in to %s:
+auth.login_or_register:
+  To view this content you will need to either %s or %s.:
+auth.login_registered_before:
+  Log in if you have registered with us before:
+auth.login_with_facebook:
+  Log in with Facebook:
+auth.login_your_account:
+  Login to your account:
+auth.logout:
+  Log out:
+auth.male:
+  Male:
+auth.message_submitted_registered:
+  ? Once your message is submitted, you will be registered and logged in with us so you don't need to enter your details again until you log off.
+  :
+auth.new_user:
+  New User?:
+auth.new_user_join_free:
+  New User? Join us for FREE:
+auth.not_reg_join_free:
+  Not registered? Join us for FREE:
+auth.not_registered_join_us:
+  Not registered? Join us FREE:
+auth.offerer_flat_house_rent:
+  I have a flat or house to rent:
+auth.offerer_flat_house_share:
+  I have a flat or house share:
+auth.offerer_flat_house_share_rent:
+  I have a flat or house share:
+auth.once_registered_phone:
+  ? Once you have registered and have retrieved the phone number, you will be registered and logged in with us so you don't need to enter your details again until you log off.
+  :
+auth.or:
+  OR:
+auth.password:
+  Password:
+auth.privacy_desc:
+  Privacy description:
+auth.privacy_sidebar_p_html:
+  Privacy paragraph sidebar:
+auth.recaptcha:
+  Protected by reCAPTCHA:
+auth.reg_email:
+  Register with your email:
+auth.reg_using_facebook:
+  Register using Facebook:
+auth.register:
+  Register:
+auth.register_and_get_phone:
+  Register and get phone:
+auth.register_and_send:
+  Register and send:
+auth.register_colon:
+  'Register:
+auth.register_now_for_free:
+  Register now for free:
+auth.register_via_email:
+  Register via email:
+auth.register_with_facebook:
+  Register with Facebook:
+auth.remember_me:
+  Remember me:
+auth.seeker_flat_house_rent:
+  I am looking for a flat or house to rent:
+auth.seeker_flat_house_share:
+  I am looking for a flat or house share:
+auth.seeker_flat_house_share_rent:
+  I am looking for flat or house to share or rent:
+auth.thank_you_registered:
+  Thank you for registering:
+auth.thank_you_success:
+  Thank you, you have successfully registered with SpareRoom.:
+auth.third_parties:
+  We NEVER pass your details on to third parties:
+auth.tick_those:
+  Tick those which apply to you:
+auth.too_many_attempts:
+  Too many failed login attempts. Please try again in 5 minutes.:
+auth.unknown_facebook_error:
+  Unknown Facebook error - please call us on %s:
+auth.view_contact_ad:
+  View and contact the ad:
+auth.your_privacy:
+  Your privacy:
+commerce.and_number_new_ads:
+  and %s more new ads on the site immediately.:
+commerce.contact_this_ad:
+  contact this ad:
+commerce.demand_is_very_high:
+  ? Demand for rooms is very high at the moment - for every new room that's added to the site, there are 6 new people looking! Early Bird gives you a head start by granting you access to the latest ads ahead of the rest.
+  :
+commerce.upgrade_and_get_early_bird_access_to:
+  Upgrade and get Early Bird Access to:
+commerce.upgrade_to_send_message:
+  Upgrade to get Early Bird Access to send your message:
+component.profile_popup.age:
+  Age:
+component.profile_popup.edit_profile:
+  Edit profile:
+component.profile_popup.gender:
+  Gender:
+component.profile_popup.have_flat_or_house_share:
+  I have a flat or house share:
+component.profile_popup.joined_because:
+  'Joined SpareRoom because:
+component.profile_popup.last_active:
+  Last active:
+component.profile_popup.looking_for_a_share:
+  I am looking for a flat or house share:
+component.profile_popup.looking_for_buddyups:
+  I'd like to find people to form a new share:
+component.profile_popup.member_since:
+  Member since:
+component.profile_popup.unknown:
+  Unknown:
+component.profile_popup.user_profile_icon:
+  User profile icon:
+component.profile_popup.verified_user:
+  Verified user:
+contact_us.email:
+  email:
+eighth:
+  eighth:
+eleventh:
+  eleventh:
+email.footer.address.company_reg:
+  company reg:
+email.footer.address.operated_by:
+  is operated by:
+email.footer.address.registered_office:
+  Our address and registered office is:
+email.footer.links.contact:
+  Contact Us:
+email.footer.links.preferences:
+  Preferences:
+email.footer.links.privacy:
+  Privacy Policy:
+email.footer.links.terms:
+  Terms & Conditions:
+email.footer.links.unsubscribe:
+  Unsubscribe:
+email.footer.privacy.never_sell:
+  so we'll never sell or give away your email address:
+email.footer.privacy.no_mailing_list:
+  you'll never end up on anyone else's mailing list as a result of using !site_name!:
+email.footer.privacy.our_promise:
+  Our promise:
+email.footer.privacy.privacy_seriously:
+  '!site_name! takes your privacy very seriously.':
+email.footer.privacy.title:
+  Your email address is safe with us:
+email.footer.privacy.we_hate_spam:
+  We hate spam as much as you do:
+email.footer.reason.title:
+  Why have I received this email?:
+fifth:
+  fifth:
+first:
+  first:
+footer.apps.android_app:
+  Android app:
+footer.apps.ios_app:
+  iOS app:
+footer.apps.spareroom_apps:
+  SpareRoom apps (free):
+footer.contact.call_us_on:
+  Call us on %s:
+footer.contact.mon_to_fri_hours:
+  'Mon to Fri:
+footer.cookie_settings:
+  Cookie Settings:
+footer.heading.about_us:
+  About us:
+footer.heading.contact_us_need_help:
+  Contact us | Need help?:
+footer.heading.our_services:
+  Our services:
+footer.heading.top_flatsharing_cities:
+  Top flatsharing cities:
+footer.navigation.advertise_a_room:
+  Advertise a room:
+footer.navigation.contact_us:
+  Contact us:
+footer.navigation.contact_us_by_email:
+  Contact us by email:
+footer.navigation.desktop_site:
+  Desktop site:
+footer.navigation.get_the_app:
+  Get the app:
+footer.navigation.more_towns_and_cities:
+  More towns and cities:
+footer.navigation.post_a_room_wanted_ad:
+  Post a room wanted ad:
+footer.navigation.privacy_policy:
+  Privacy policy:
+footer.navigation.terms_and_conditions:
+  Terms and conditions:
+footer.navigation.tooltip.android_app_download:
+  SpareRoom Android app download on Google Play:
+footer.navigation.tooltip.city_flatshares_and_flatmates:
+  '%s flatshares house share and flatmates':
+footer.navigation.tooltip.contact_us_by_phone:
+  Contact us by phone:
+footer.navigation.tooltip.ios_app_download:
+  SpareRoom iOS app download on Apple Store:
+footer.navigation.tooltip.room_to_let:
+  Advertise your room to let:
+footer.navigation.tooltip.sparerooms_privacy:
+  SpareRoom's privacy:
+footer.navigation.tooltip.sparerooms_terms:
+  SpareRoom's terms:
+form.auto_reply.button.cancel:
+  Cancel:
+form.auto_reply.button.send:
+  Send:
+form.button.apply_filters:
+  Apply filters:
+form.messages.filter_by_advert:
+  Filter by advert:
+form.messages.filter_by_keyword:
+  Filter by keyword:
+form.messages.filter_by_label:
+  Filter by label:
+form.messages.filters.clear_all:
+  Clear all:
+form.messages.option.show_all:
+  Show all:
+form.messages.show_deleted_threads:
+  Show deleted threads:
+form.messages.show_only_unreplied:
+  Show only unreplied:
+form.search.button.continue:
+  Continue:
+form.search.button.search:
+  Search:
+form.search.button.update_search:
+  Update search:
+form.search.criteria.ads_posted_by:
+  Ads posted by:
+form.search.criteria.age_range:
+  Age range:
+form.search.criteria.bills_included:
+  Bills included:
+form.search.criteria.days_available:
+  Days available:
+form.search.criteria.en_suite:
+  En suite:
+form.search.criteria.gender:
+  Gender:
+form.search.criteria.include:
+  Include:
+form.search.criteria.keywords:
+  Keywords:
+form.search.criteria.length_of_stay:
+  Length of stay:
+form.search.criteria.live_with_landlord:
+  Live with landlord:
+form.search.criteria.miscellaneous:
+  Miscellaneous:
+form.search.criteria.number_of_rooms:
+  Number of rooms:
+form.search.criteria.occupation:
+  Occupation:
+form.search.criteria.rent:
+  Rent %s:
+form.search.criteria.room_amenities:
+  Room amenities:
+form.search.criteria.room_sizes:
+  Room sizes:
+form.search.criteria.rooms_for:
+  Rooms for:
+form.search.criteria.search_by_location:
+  Search by location:
+form.search.criteria.search_for:
+  Search for:
+form.search.criteria.search_radius:
+  Search radius:
+form.search.criteria.shared_living_room:
+  Shared living room:
+form.search.criteria.size_of_household:
+  Size of household:
+form.search.criteria.smoking_allowed:
+  Smoking allowed:
+form.search.criteria.to_move_in:
+  To move in:
+form.search.criteria.your_preferences:
+  Your preferences:
+form.search.duration.maximum:
+  'Maximum:
+form.search.duration.minimum:
+  'Minimum:
+form.search.heading.advanced_search:
+  Advanced search:
+form.search.heading.basic_search:
+  Basic search:
+form.search.heading.find_a_room_or_flatmate:
+  Find a Room or Flatmate:
+form.search.heading.other_search_options:
+  Other search options:
+form.search.heading.property_preferences:
+  Property preferences:
+form.search.heading.sharing_preferences:
+  Sharing preferences:
+form.search.info.all_fields_are_optional:
+  All fields are optional:
+form.search.info.broaden_date_search:
+  We will search 21 days either side of this date:
+form.search.info.multiple_rooms_needed:
+  i.e. More than one of you need a room?:
+form.search.info.no_agents:
+  i.e. no agents:
+form.search.info.regular_full_time_lets:
+  i.e. regular full time lets:
+form.search.info.shared_living_room_info:
+  i.e. communal living space (rather than converted to another bedroom for instance):
+form.search.info.total_rooms_in_property:
+  i.e. Total number of bedrooms in the property:
+form.search.location.area_or_postcode:
+  Area or postcode:
+form.search.option.agents_only:
+  Agents only:
+form.search.option.anytime:
+  Anytime:
+form.search.option.bills_included:
+  Only show rooms with all bills included in the rent:
+form.search.option.couples:
+  Couples:
+form.search.option.disabled_access:
+  Disabled access:
+form.search.option.dont_mind:
+  Don't mind:
+form.search.option.double:
+  Double:
+form.search.option.either:
+  Either:
+form.search.option.everyone:
+  Everyone:
+form.search.option.females:
+  Females:
+form.search.option.females_only:
+  Females only:
+form.search.option.furnished:
+  Furnished:
+form.search.option.lgbt_household:
+  LGBT Household:
+form.search.option.live_out_landlord:
+  Live out landlord:
+form.search.option.males:
+  Males:
+form.search.option.males_only:
+  Males only:
+form.search.option.mile_radius:
+  '%s mile radius':
+form.search.option.mixed:
+  Mixed:
+form.search.option.mon_to_fri_lets:
+  Monday to Friday lets only:
+form.search.option.months:
+  '%s months':
+form.search.option.no:
+  No:
+form.search.option.no_agents:
+  No agents:
+form.search.option.no_maximum:
+  No maximum:
+form.search.option.no_minimum:
+  No minimum:
+form.search.option.one_month:
+  1 month:
+form.search.option.one_room_to_rent:
+  '%s room for rent':
+form.search.option.one_year:
+  1 year:
+form.search.option.parking_available:
+  Parking available:
+form.search.option.pcm:
+  pcm:
+form.search.option.per_calendar_month:
+  per calendar month:
+form.search.option.per_week:
+  per week:
+form.search.option.pets_considered:
+  Pets considered:
+form.search.option.photo_ads_only:
+  Photo ads only:
+form.search.option.private_ads_only:
+  Private ads only:
+form.search.option.professional:
+  Professional:
+form.search.option.pw:
+  pw:
+form.search.option.rooms_for_rent:
+  Rooms for rent:
+form.search.option.rooms_in_existing_shares:
+  Rooms in existing shares:
+form.search.option.rooms_wanted:
+  Rooms wanted:
+form.search.option.seven_days_per_week:
+  7 days per week:
+form.search.option.shared_living_room_required:
+  Shared living room required:
+form.search.option.short_term_lets:
+  Short term lets:
+form.search.option.single:
+  Single:
+form.search.option.student:
+  Student:
+form.search.option.studios_and_one_bed_flats:
+  Studios & 1 bed flats:
+form.search.option.this_area_only:
+  This area only:
+form.search.option.unfurnished:
+  Unfurnished:
+form.search.option.vegetarians_preferred:
+  Vegetarians preferred:
+form.search.option.weekends_only:
+  Weekends only:
+form.search.option.years:
+  '%s years':
+form.search.option.yes:
+  Yes:
+form.search.options.rooms_for_rent:
+  '%s rooms for rent':
+form.search.tooltip.agents_and_private_landlords:
+  Show ads from agents and private landlords:
+form.search.tooltip.agents_only:
+  Show ads from agents only:
+form.search.tooltip.all_availability_types:
+  Show results for all types of availability:
+form.search.tooltip.existing_shares:
+  Select this option to include properties with current occupants in the results:
+form.search.tooltip.full_time_lets:
+  Show results for full time lets, 7 days per week:
+form.search.tooltip.furnished_or_unfurnished:
+  Show all rooms furnished or unfurnished:
+form.search.tooltip.furnished_rooms_only:
+  Show only furnished rooms:
+form.search.tooltip.how_many_rooms:
+  How many rooms are you searching for?:
+form.search.tooltip.live_in_landlord_results:
+  Show results where landlords live at the property:
+form.search.tooltip.live_out_landlord_results:
+  Show results with landlords do not live at the property:
+form.search.tooltip.maximum_rent:
+  Maximum rent:
+form.search.tooltip.minimum_rent:
+  Minimum rent:
+form.search.tooltip.mixed_households:
+  Show results for sharing with mixed households:
+form.search.tooltip.mon_to_fri_lets:
+  Show results for Monday to Friday lets only:
+form.search.tooltip.non_smoking_rooms:
+  Show non smoking rooms:
+form.search.tooltip.private_landlord_ads:
+  Show ads from private landlords only:
+form.search.tooltip.rooms_for_any_gender:
+  Show rooms for any gender:
+form.search.tooltip.rooms_for_couples:
+  Show rooms for couples:
+form.search.tooltip.rooms_for_females:
+  Show rooms for females:
+form.search.tooltip.rooms_for_males:
+  Show rooms for males:
+form.search.tooltip.rooms_wanted_search:
+  Search for rooms wanted:
+form.search.tooltip.rooms_with_all_genders:
+  Show all results regardless of gender:
+form.search.tooltip.rooms_with_ensuite_only:
+  Only show rooms with an en-suite bathroom:
+form.search.tooltip.search_for_rooms_to_rent:
+  Search for rooms to rent:
+form.search.tooltip.search_properties_to_rent:
+  Search for properties to rent:
+form.search.tooltip.share_with_professionals:
+  Show results for sharing with professionals:
+form.search.tooltip.share_with_students:
+  Show results for sharing with students:
+form.search.tooltip.sharing_with_females:
+  Show results for sharing with females:
+form.search.tooltip.sharing_with_males:
+  Show results for sharing with males:
+form.search.tooltip.show_all_results:
+  Show all results:
+form.search.tooltip.show_all_room_sizes:
+  Show all room sizes:
+form.search.tooltip.show_all_rooms_including_no_ensuite:
+  Show all rooms, including rooms with no ensuite bathroom:
+form.search.tooltip.show_double_rooms:
+  Show double rooms:
+form.search.tooltip.show_single_rooms:
+  Show single rooms:
+form.search.tooltip.smoking_allowed:
+  Show rooms where smoking is allowed:
+form.search.tooltip.studios_and_one_beds:
+  Select this option to include 1 bed flats in the results:
+form.search.tooltip.unfurnished_rooms_only:
+  Show only unfurnished rooms:
+form.search.tooltip.weekend_lets_only:
+  Show results for weekend lets only:
+form.search.value.between:
+  Between:
+form.search.value.between_and:
+  and:
+form.search.value.max:
+  max:
+form.search.value.min:
+  min:
+form.search.value.min_to_max:
+  to:
+form.sort.option.default_sort_order:
+  Default sort order:
+form.sort.option.last_updated:
+  Last updated:
+form.sort.option.newest_ads:
+  Newest ads:
+form.sort.option.price_highest_first:
+  Price (highest first):
+form.sort.option.price_lowest_first:
+  Price (lowest first):
+fourth:
+  fourth:
+general.fallback_meta_desc:
+  Fallback Meta Desc:
+header.country_choice.save:
+  Save:
+header.country_choice.title:
+  In which country are you looking?:
+header.skip_link:
+  Skip to content:
+header.support.contact_text:
+  Contact us online:
+header.support.label:
+  Support:
+header.support.phone_text:
+  Or call:
+header.support.weekdays:
+  Mon to Fri:
+header.support.weekends:
+  Weekends:
+help.call_us_on:
+  Call us on:
+help.contact_by_email:
+  '@ Contact us by email or':
+help.contact_us_by_email:
+  '@ Contact us by %s or':
+help.need_any_help:
+  Need any help?:
+help.tooltip.contact_us_by_email:
+  Contact us by email:
+json.my_details.email_preferences.newsletters.desc:
+  SpareRoom News:
+json.my_details.email_preferences.notify.desc:
+  Daily Alerts of Suitable New Adverts:
+json.my_details.email_preferences.notify_justin.desc:
+  Instant Alerts of Suitable New Adverts:
+json.my_details.email_preferences.sfm_alerts.desc:
+  Speed Flatmating Event Alerts:
+json.my_details.email_preferences.tips_and_promotions.desc:
+  Tips, Info & Advice, Promotions:
+listing.details.rental_period.pcm:
+  pcm:
+listing.details.rental_period.pw:
+  pw:
+modal.ad_example.button.upgrade_now:
+  Upgrade now:
+modal.ad_example.heading.bold_advertising:
+  Bold advertising:
+modal.ad_example.how_your_ad_currently_appears:
+  How your ad currently appears in the search results:
+modal.ad_example.how_your_ad_will_look:
+  How your upgraded ad will look in the search results - enhanced for better visibility:
+modal.close:
+  Close:
+modal.dialog_window:
+  Dialog window:
+modal.done:
+  Done:
+navigation.about_us:
+  About us:
+navigation.account:
+  Account:
+navigation.account.back_link.my_account:
+  My account:
+navigation.account.edit_my_details:
+  Edit my details:
+navigation.account.email_alerts:
+  Email alerts:
+navigation.account.messages:
+  Messages:
+navigation.account.my_ads:
+  My ads:
+navigation.account.saved_ads:
+  Saved ads:
+navigation.account.saved_searches:
+  Saved searches:
+navigation.account.upgrade:
+  Upgrade:
+navigation.account.whos_interested:
+  Who's interested:
+navigation.browse:
+  Browse:
+navigation.help:
+  Help:
+navigation.info_and_advice:
+  Info & advice:
+navigation.post_ad:
+  Post ad:
+navigation.search:
+  Search:
+navigation.search.my_search:
+  My search:
+navigation.search.saved_flatmate_ads:
+  Saved flatmate ads:
+navigation.search.saved_flatshare_ads:
+  Saved flatshare ads:
+navigation.upgrade:
+  Upgrade:
+ninth:
+  ninth:
+offered_advert.advertiser_role.agent:
+  agent:
+offered_advert.advertiser_role.current_flatmate:
+  current flatmate:
+offered_advert.advertiser_role.current_tenants:
+  current tenants:
+offered_advert.advertiser_role.former_flatmate:
+  former flatmate:
+offered_advert.advertiser_role.live_in_landlord:
+  live in landlord:
+offered_advert.advertiser_role.live_out_landlord:
+  live out landlord:
+offered_advert.advertiser_role.other:
+  other:
+offered_advert.advertiser_role.private_seller:
+  private seller:
+page.account.main_heading.my_account_welcome:
+  My account – welcome:
+page.account.navigation.check_and_manage_messages:
+  Check and manage your latest messages:
+page.account.navigation.edit_my_details:
+  Edit my details:
+page.account.navigation.manage_account_info:
+  Manage your account information here:
+page.account.navigation.manage_your_ads:
+  Manage your ads. Edit, upgrade, deactivate.:
+page.account.navigation.messages:
+  Messages:
+page.account.navigation.my_ads:
+  My ads:
+page.account.navigation.promo_code:
+  I have a promo code:
+page.account.navigation.promo_code.apply:
+  Apply:
+page.account.navigation.saved_ads:
+  Saved ads:
+page.account.navigation.saved_searches:
+  Saved searches:
+page.account.navigation.title.my_posted_ads:
+  My posted ads:
+page.account.navigation.view_and_edit_saved_searches:
+  View and edit your saved searches:
+page.account.navigation.view_saved_ads:
+  View and manage your saved ads:
+page.account.navigation.whos_expressed_interest:
+  See who has expressed interest in your adverts:
+page.account.navigation.whos_interested:
+  Who's interested:
+page.ad_details.about:
+  About:
+page.ad_details.about_company_name:
+  About (Company name):
+page.ad_details.ad:
+  Ad:
+page.ad_details.ad_details:
+  Ad details:
+page.ad_details.ad_ref:
+  Ad ref:
+page.ad_details.add:
+  Add:
+page.ad_details.age:
+  Age:
+page.ad_details.ages:
+  Ages:
+page.ad_details.amenities:
+  Amenities:
+page.ad_details.amenities_req:
+  Amenities required:
+page.ad_details.an_image_yet:
+  an image yet:
+page.ad_details.any_pets:
+  Any pets?:
+page.ad_details.auto_link:
+  'and we will automatically create a clickable link in your message, just like:
+page.ad_details.availability:
+  Availability:
+page.ad_details.available:
+  Available:
+page.ad_details.back_to_advert_details:
+  Go back to the advert details:
+page.ad_details.back_to_messages:
+  Back to your messages:
+page.ad_details.back_to_saved_ads:
+  Back to your saved ads:
+page.ad_details.back_to_search:
+  Back to search results:
+page.ad_details.back_to_users_ads:
+  Back to user's ads:
+page.ad_details.back_to_whos_interested:
+  Back to your who's interested list:
+page.ad_details.balcony:
+  balcony:
+page.ad_details.balcony_patio:
+  Balcony/patio:
+page.ad_details.bills_included:
+  Bills included?:
+page.ad_details.bisexual:
+  Bisexual:
+page.ad_details.bold_advertising:
+  Bold Advertising:
+page.ad_details.boosted:
+  Boosted:
+page.ad_details.broadband_included:
+  Broadband included:
+page.ad_details.by_typing:
+  by typing:
+page.ad_details.call:
+  Call:
+page.ad_details.contact_the_advertiser:
+  Contact the advertiser:
+page.ad_details.contacted:
+  contacted:
+page.ad_details.copied_to_clipboard:
+  Copied to clipboard:
+page.ad_details.copy_link:
+  Copy link:
+page.ad_details.couples_ok:
+  Couples OK?:
+page.ad_details.current_household:
+  Current household:
+page.ad_details.deposit:
+  Deposit:
+page.ad_details.description:
+  Description:
+page.ad_details.disabled_access:
+  Disabled access:
+page.ad_details.disabled_access_lower:
+  disabled access:
+page.ad_details.dont_mind:
+  Don't mind:
+page.ad_details.email:
+  Email:
+page.ad_details.email_tips:
+  Email tips:
+page.ad_details.en_suite:
+  En suite:
+page.ad_details.en_suite_hyphenated:
+  en-suite:
+page.ad_details.enter_your_message:
+  Enter your message:
+page.ad_details.error_with_submission:
+  'There was an error with your submission:
+page.ad_details.existing_user:
+  Existing User?:
+page.ad_details.extra_cost:
+  Extra cost:
+page.ad_details.fees_apply:
+  Fees apply?:
+page.ad_details.female_preferred:
+  Female preferred:
+page.ad_details.find_out_more:
+  Find out more:
+page.ad_details.flat:
+  Flat:
+page.ad_details.flat_share:
+  Flat share:
+page.ad_details.flatmate:
+  flatmate:
+page.ad_details.flatmate_upper:
+  Flatmate:
+page.ad_details.flatmates:
+  flatmates:
+page.ad_details.for_free:
+  for Free:
+page.ad_details.free_to_contact:
+  Free to contact:
+page.ad_details.free_to_contact_plain:
+  Free to contact:
+page.ad_details.from:
+  From:
+page.ad_details.furnished_room:
+  Furnished room:
+page.ad_details.furnishings:
+  Furnishings:
+page.ad_details.garage:
+  Garage:
+page.ad_details.garage_lower:
+  garage:
+page.ad_details.garden_roof_terrace_lower:
+  garden/roof terrace:
+page.ad_details.garden_terrace:
+  Garden/terrace:
+page.ad_details.gay_lesbian:
+  Gay/Lesbian:
+page.ad_details.gender:
+  Gender:
+page.ad_details.hi:
+  Hi:
+page.ad_details.hidden:
+  Hidden:
+page.ad_details.hide:
+  Hide:
+page.ad_details.house_share:
+  House share:
+page.ad_details.housemate:
+  housemate:
+page.ad_details.housemates:
+  housemates:
+page.ad_details.in_a_hurry:
+  In a hurry?:
+page.ad_details.inc:
+  inc:
+page.ad_details.insert_ad_ref:
+  Insert advert ref:
+page.ad_details.interests:
+  Interests:
+page.ad_details.language:
+  Language:
+page.ad_details.last_active:
+  Last active:
+page.ad_details.link_them_to_your_ad:
+  Link them straight to your ad:
+page.ad_details.living_room:
+  Living room:
+page.ad_details.login_as_other_user:
+  log in as other user:
+page.ad_details.looking_in:
+  Looking in:
+page.ad_details.male_preferred:
+  Male preferred:
+page.ad_details.males_or_females:
+  Males or females:
+page.ad_details.mark_as_unsuitable:
+  Mark as unsuitable:
+page.ad_details.mark_as_unsuitable_title:
+  Mark as suitable link title:
+page.ad_details.marked_as_unsuitable:
+  Marked as unsuitable:
+page.ad_details.max_age:
+  Max age:
+page.ad_details.max_term:
+  Maximum term:
+page.ad_details.me:
+  me:
+page.ad_details.message:
+  Message:
+page.ad_details.min_age:
+  Min age:
+page.ad_details.min_term:
+  Minimum term:
+page.ad_details.mixed:
+  Mixed:
+page.ad_details.mon_fri_let:
+  Mon - Fri let:
+page.ad_details.mon_fri_only:
+  Room available monday to friday only:
+page.ad_details.month:
+  month:
+page.ad_details.months:
+  months:
+page.ad_details.nationality:
+  Nationality:
+page.ad_details.new:
+  New:
+page.ad_details.new_household_preferences:
+  New household preferences:
+page.ad_details.new_today:
+  New today:
+page.ad_details.no:
+  No:
+page.ad_details.no_photos_yet:
+  No photos yet:
+page.ad_details.no_preference:
+  No preference specified:
+page.ad_details.none:
+  None:
+page.ad_details.not_accepting_applications:
+  The advertiser is not currently accepting applications:
+page.ad_details.not_known:
+  Not known:
+page.ad_details.not_you:
+  Not you?:
+page.ad_details.now_let:
+  Now let:
+page.ad_details.occupation:
+  Occupation:
+page.ad_details.off_street_parking:
+  off street parking:
+page.ad_details.orientation:
+  Orientation:
+page.ad_details.other:
+  Other:
+page.ad_details.parking:
+  Parking:
+page.ad_details.pets_ok:
+  Pets OK?:
+page.ad_details.preferences:
+  preferences:
+page.ad_details.professional:
+  Professional:
+page.ad_details.re:
+  'RE:
+page.ad_details.read_more:
+  Read more:
+page.ad_details.references:
+  References?:
+page.ad_details.report_ad_paragraph:
+  Report ad paragraph:
+page.ad_details.report_this_ad:
+  Report this ad:
+page.ad_details.request_user_uploads_media:
+  Request this user uploads a photo:
+page.ad_details.results:
+  results:
+page.ad_details.room:
+  Room:
+page.ad_details.room_lower:
+  room:
+page.ad_details.safety_tip:
+  'TIP:
+page.ad_details.save:
+  Save:
+page.ad_details.saved:
+  Saved:
+page.ad_details.saved_mobile:
+  Saved:
+page.ad_details.select_which_ad_to_send:
+  Select which ad to send:
+page.ad_details.send_advertiser_ads:
+  In a hurry? Send the advertiser one of your ads by clicking below.:
+page.ad_details.send_advertiser_your_profile:
+  and we will send the advertiser your profile:
+page.ad_details.send_message:
+  Send message:
+page.ad_details.share:
+  Share:
+page.ad_details.share_ad:
+  Share ad:
+page.ad_details.share_which_ad_ref:
+  'Select which advert ref to insert:
+page.ad_details.shared_living_room:
+  shared living room:
+page.ad_details.shared_property:
+  Shared property:
+page.ad_details.short_lets_considered:
+  Short lets considered:
+page.ad_details.show_interest:
+  Show interest:
+page.ad_details.show_interest_link_title:
+  Show interest link title:
+page.ad_details.smoker:
+  Smoker:
+page.ad_details.smokers_ok:
+  Smokers OK?:
+page.ad_details.smoking_ok:
+  Smoking OK?:
+page.ad_details.start_new_search:
+  Start new search:
+page.ad_details.stay_safe:
+  Stay safe:
+page.ad_details.straight:
+  Straight:
+page.ad_details.student:
+  Student:
+page.ad_details.suggested_rent_split:
+  Suggested rent split:
+page.ad_details.to:
+  to:
+page.ad_details.to_rent:
+  to rent:
+page.ad_details.total_budget:
+  Total budget:
+page.ad_details.total_num_rooms:
+  'Total # rooms':
+page.ad_details.university:
+  University:
+page.ad_details.upgrade:
+  Upgrade:
+page.ad_details.upgrade_message:
+  Upgrade message:
+page.ad_details.upgrade_to_contact:
+  Upgrade to contact:
+page.ad_details.upgrade_to_contact_plain:
+  Upgrade to contact:
+page.ad_details.us:
+  us:
+page.ad_details.user_hasnt_uploaded:
+  This user hasn't uploaded:
+page.ad_details.vegetarian:
+  Vegetarian:
+page.ad_details.video:
+  Video:
+page.ad_details.video_tips:
+  Video tips:
+page.ad_details.view_on_map:
+  View on map:
+page.ad_details.wanted:
+  wanted:
+page.ad_details.washing_machine:
+  washing machine:
+page.ad_details.weekends_only:
+  Room available weekends only:
+page.ad_details.yes:
+  Yes:
+page.advert_detail.ad_title.words_to_not_capitalise:
+  a an the and but or as at by for from in into of off on onto per to with inc:
+page.advert_detail.construct_accom_type.1_bed_flat_or_studio:
+  1 bed flat or studio:
+page.advert_detail.construct_accom_type.flat:
+  '%s bed Flat':
+page.advert_detail.construct_accom_type.house:
+  '%s bed House':
+page.advert_detail.construct_accom_type.no_available_rooms:
+  No available rooms:
+page.advert_detail.construct_accom_type.no_property_type:
+  '%s bed':
+page.advert_detail.construct_accom_type.property:
+  '%s bed Property':
+page.advert_detail.construct_accom_type.studio_flat:
+  Studio flat:
+page.advert_detail.construct_room_type.double:
+  double:
+page.advert_detail.construct_room_type.double_room:
+  double room:
+page.advert_detail.construct_room_type.double_rooms:
+  double rooms:
+page.advert_detail.construct_room_type.doubles:
+  '%s doubles':
+page.advert_detail.construct_room_type.single:
+  single:
+page.advert_detail.construct_room_type.single_room:
+  single room:
+page.advert_detail.construct_room_type.single_rooms:
+  single rooms:
+page.advert_detail.construct_room_type.singles:
+  '%s singles':
+page.advert_detail.construct_room_type.studio:
+  Studio / 1 Bed:
+page.advert_detail.errors.advert_deleted:
+  Sorry, the advert has been deleted:
+page.advert_detail.errors.advert_no_longer_live:
+  Sorry, the advert is no longer live:
+page.advert_detail.errors.advert_not_currently_live:
+  Sorry, the advert is not currently live:
+page.advert_detail.errors.agree_to_terms_and_conditions:
+  You must agree to our terms and conditions before proceeding - tick the box under 'Your agreement with us':
+page.advert_detail.errors.details_for_incorrect_user_type:
+  ? If you are a new user, you must fill in the details under 'New user?', otherwise if you are an existing user please fill in the details under 'Existing user?'
+  :
+page.advert_detail.errors.email_and_no_password:
+  If you are an existing user, you must enter your password. If you are a new user, please enter the details under 'new user?':
+page.advert_detail.errors.message_required:
+  Please enter your message:
+page.advert_detail.errors.name_required:
+  Please enter your name:
+page.advert_detail.errors.new_user_password_required:
+  If you are a new user, you must choose a password:
+page.advert_detail.errors.ok_to_view.email_not_sent:
+  Your email has not been sent:
+page.advert_detail.errors.ok_to_view.retry:
+  Please try again later:
+page.advert_detail.errors.room_no_longer_available:
+  Sorry, this room is no longer available:
+page.advert_detail.json.advert.days_left_till_free_to_contact_cta:
+  We'll notify you when this ad becomes free to contact in %s days (unless the ad is renewed or taken in the meantime):
+page.advert_detail.json.advert_details.content.postcode:
+  Postcode:
+page.advert_detail.json.advert_details.en_suite:
+  En-suite:
+page.advert_detail.json.advert_details.price.pcm:
+  '%s pcm':
+page.advert_detail.json.advert_details.price.pw:
+  '%s pw':
+page.advert_detail.json.ameneties.offered.garden_roof_terrace:
+  Garden/Roof Terrace:
+page.advert_detail.json.ameneties.wanted.garden_roof_terrace:
+  Garden/Roof terrace:
+page.advert_detail.json.errors.advert_id_required:
+  No advert id provided:
+page.advert_detail.json.errors.advert_not_found:
+  Advert not found:
+page.advert_detail.json.errors.advert_not_found_expired_or_removed:
+  Advert not found - it may have expired or been removed:
+page.advert_detail.json.errors.advert_type_required:
+  No advert type provided:
+page.advert_detail.json.errors.advertiser_no_tel_contact:
+  This advertiser does not wish to be contacted by phone:
+page.advert_detail.json.errors.early_bird_required:
+  Early Bird required to contact this advert:
+page.advert_detail.json.errors.logged_in_contact:
+  You must be logged in to contact adverts:
+page.advert_detail.json.response.message_sent:
+  Thank you, your message was successfully sent:
+page.advert_detail.room_info_fmt.double_room:
+  Double Room:
+page.advert_detail.room_info_fmt.now_let:
+  Now Let:
+page.advert_detail.room_info_fmt.single_room:
+  Single Room:
+page.advert_detail.suitable_for_sharing:
+  suitable for sharing:
+page.advert_details.json.advert_details.wanted.bed_property_to_rent:
+  '%s bed property to rent':
+page.advert_details.json.extra_costs.bills_inc:
+  Bills inc:
+page.advert_details.json.extra_costs.broadband_inc:
+  Broadband inc:
+page.contact.email_subject:
+  '%s contact - %s':
+page.contact.error.form_error:
+  Form error. Please try again or call us:
+page.contact.error.invalid_email:
+  Your email appears to be invalid:
+page.contact.error.message_required:
+  Please enter a message:
+page.contact.error.no_html:
+  Please do not use HTML:
+page.contact.subject_dropdown.select_subject:
+  Select your subject...:
+page.email_preferences:
+  Email preferences:
+page.find_postcode3.error.at_least_1_occupant:
+  There should be at least one occupant in a "Live in landlord" property:
+page.find_postcode3.error.invalid_advertiser_role:
+  Please select a valid role from the 'I am a' list:
+page.find_postcode3.error.invalid_email:
+  Your email appears to be invalid, please check:
+page.find_postcode3.error.invalid_occupants:
+  The number of occupants must be a numeric value:
+page.find_postcode3.error.invalid_postcode:
+  The postcode you entered is in the wrong format - your postcode should look something like %s:
+page.find_postcode3.error.invalid_price:
+  The price of the property must be numerical, no commas (e.g. 300000 not 300,000):
+page.find_postcode3.error.no_email:
+  Please enter your email:
+page.find_postcode3.error.no_postcode:
+  Please enter the postcode of the property:
+page.find_postcode3.error.no_price:
+  Please enter the price of the property:
+page.find_postcode3.error.postcode_not_found:
+  postcode not found:
+page.find_postcode3.error.too_high_rooms_for_rent:
+  Number of rooms for rent can't be higher than total rooms in property:
+page.find_postcode3.error.too_many_ads.bold_advertiser:
+  To manage more than one advert under your account you need to be a %s:
+page.find_postcode3.error.too_many_ads.full_member:
+  To manage more than one advert under your account you need to be a %s:
+page.find_postcode3.error.too_many_ads.part2.plural:
+  or %s:
+page.find_postcode3.error.too_many_ads.part2.singular:
+  or %s:
+page.find_postcode3.error.too_many_ads.purchase_extra_listings.plural:
+  You currently have an allocation of %s live listings on the site, which are filled. To add further live listings, you need to %s:
+page.find_postcode3.error.too_many_ads.purchase_extra_listings.singular:
+  You currently have an allocation of 1 live listing on the site, which is filled. To add further live listings, you need to %s:
+page.find_postcode3.error.too_many_occupants:
+  ? You have entered more than 10 current occupants - are you sure this is correct? Currently the system recognises a maximum of 10 current occupants. Please call us on %s if you need more than this. Thank you.
+  :
+page.find_postcode3.link.bold_advertiser:
+  Bold Advertiser:
+page.find_postcode3.link.full_member:
+  Full Member:
+page.find_postcode3.link.purchase_extra_listings:
+  purchase extra listings:
+page.find_postcode3.link.remove_one_of_your_other_ads:
+  remove one of your other ads:
+page.find_postcode3.link.remove_your_other_ad:
+  remove your other ad:
+page.forgot_password.cancel:
+  Cancel:
+page.forgot_password.email:
+  Email:
+page.forgot_password.forgotten_password:
+  Forgotten password:
+page.forgot_password.intro:
+  Password reset intro:
+page.forgot_password.page_title:
+  Password reset:
+page.forgot_password.remind_me:
+  Remind me:
+page.forgot_password.title:
+  SpareRoom Password reminder:
+page.home.hero.advanced_search:
+  Advanced search:
+page.home.hero.area_postcode:
+  Area or postcode:
+page.home.hero.flatmates:
+  Flatmates:
+page.home.hero.rooms:
+  Rooms:
+page.home.hero.rooms_or_flatmates:
+  Search for rooms or flatmates:
+page.home.hero.search:
+  Search:
+page.home.hero.search_reset_button:
+  Search reset button:
+page.home.hero.subtitle:
+  '%s rooms and flats available in Britain!':
+page.home.hero.title:
+  Find Home Together:
+page.home.hero.what_are_you_searching_for:
+  What are you searching for?:
+page.home.looking_in_london.features.header:
+  Looking in London?:
+page.home.popular_cities.roommates_in:
+  Find roommates in %s:
+page.home.popular_cities.rooms_to_rent_in:
+  Finds rooms for rent in %s:
+page.home.popular_cities.title:
+  Popular SpareRoom Cities:
+page.home.post_ad_block.button_text_offered:
+  Post ad block button text offered:
+page.home.post_ad_block.button_text_wanted:
+  Post ad block button text wanted:
+page.home.post_ad_block.find_out_more:
+  Post ad block find out more:
+page.home.post_ad_block.free_ad_days:
+  Post a free ad and let your room in days:
+page.home.post_ad_block.free_rw_ad:
+  Post a free room wanted ad:
+page.home.post_ad_block.heading_offered:
+  Post ad block heading offered:
+page.home.post_ad_block.heading_wanted:
+  Post ad block heading wanted:
+page.home.post_ad_block.let_people_know_about_you:
+  Let people know about you, your room and location. Upload a short video and up to 9 photos to really stand out.:
+page.home.post_ad_block.need_a_room:
+  Need a room?:
+page.home.post_ad_block.post_free_ad:
+  Post a free ad:
+page.home.post_ad_block.room_to_let:
+  Have a room to let?:
+page.home.post_ad_block.save_time_wanted:
+  Save time with a wanted ad:
+page.home.post_ad_block.save_time_wanted_desc:
+  Save time with a wanted ad desc:
+page.home.post_ad_block.text_offered:
+  Post ad block text offered:
+page.home.post_ad_block.text_wanted:
+  Post ad block text wanted:
+page.home.search.location_aria:
+  Search using your location:
+page.home.upgrade.dont_wait:
+  Don't wait 7 days - contact ALL ads immediately.:
+page.home.upgrade.double_enquiries:
+  Double your enquiries - stand out from the crowd with a bold ad.:
+page.home.upgrade.faster_response:
+  Get a faster response with an upgrade:
+page.home.upgrade.fill_a_room_faster:
+  Fill your room even faster with an upgrade:
+page.home.upgrade.find_a_room_faster:
+  Find a room even faster with an upgrade:
+page.home.upgrade.free_for_all:
+  Free for ALL people looking to contact you immediately.:
+page.home.upgrade.higher_ranking:
+  Higher ranking and visibility for your ad.:
+page.home.upgrade.upgrade_bold:
+  Upgrade your add to bold:
+page.home.upgrade.upgrade_eb:
+  A bold advert and Early Bird access:
+page.home.upgrade.upgrade_now:
+  Upgrade now:
+page.home.why_use_spareroom.features.body:
+  Every 3 minutes someone finds a flatmate on SpareRoom. With the biggest selection of ads, you'll find yours.:
+page.home.why_use_spareroom.features.header:
+  Why use SpareRoom?:
+page.home.why_use_spareroom.features.title:
+  We're the busiest:
+page.http_status.400.error_message:
+  Sorry, it is not possible to complete your request.:
+page.http_status.400.title:
+  Bad request:
+page.http_status.403.error_message:
+  Sorry, you are not able to access the requested page.:
+page.http_status.403.title:
+  Forbidden request:
+page.http_status.404.error_message:
+  Sorry, it is not possible to display the requested page. It may never have existed, or it might have been moved.:
+page.http_status.404.error_message_simple:
+  File not found:
+page.http_status.404.title:
+  Page not found:
+page.logon.errors.email_and_password_required:
+  Please supply an email and password to log in:
+page.logon.errors.email_required:
+  You must enter your email:
+page.logon.errors.invalid_csrf_token:
+  Sorry, we could not log you in. Please try again:
+page.logon.errors.invalid_email:
+  The email you entered is invalid - please check carefully, edit and try again:
+page.logon.errors.not_logged_in:
+  You are not logged in:
+page.logon.errors.password_required:
+  You must enter your password:
+page.logon.messages.login_success:
+  You have successfully logged in:
+page.logon.messages.stop_watchlist:
+  Your alerts have been stopped PLEASE DELETE ANY ADS NO LONGER CURRENT:
+page.logout.main_heading.you_are_now_logged_out:
+  Thank you. You are now logged out:
+page.logout.messages.logout_successful:
+  You have successfully logged out:
+page.logout.title.logout:
+  Logout:
+page.messages.button.add_label:
+  Add label:
+page.messages.button.add_notes:
+  Add notes:
+page.messages.button.add_photo:
+  Add photo:
+page.messages.button.bulk_reply:
+  Bulk reply:
+page.messages.button.create_new_label:
+  Create new label:
+page.messages.button.delete_selected:
+  Delete selected:
+page.messages.button.edit_notes:
+  Edit notes:
+page.messages.button.filter:
+  Filter:
+page.messages.button.labels:
+  Labels:
+page.messages.button.reply:
+  Reply:
+page.messages.button.sort:
+  Sort:
+page.messages.button.undelete:
+  Undelete:
+page.messages.conversation:
+  conversation:
+page.messages.displaying:
+  Displaying:
+page.messages.info.no_messages_found:
+  No messages found:
+page.messages.main_heading.messages:
+  Messages:
+page.messages.main_heading.my_messages:
+  My messages:
+page.messages.sort_by:
+  Sort by:
+page.messages.sort_by.by_name:
+  By name:
+page.messages.sort_by.default_sort_order:
+  Default sort order:
+page.messages.sort_by.newest_first:
+  Newest first:
+page.messages.sort_by.oldest_first:
+  Oldest first:
+page.messages.tab.deleted:
+  Deleted:
+page.messages.tab.inbox:
+  Inbox:
+page.messages.tab.sent:
+  Sent:
+page.messages.tab.unreplied:
+  Unreplied:
+page.messages.title.my_messages_on_spareroom:
+  My messages on SpareRoom:
+page.messges.manage_labels:
+  Manage labels:
+page.my_details.errors.autoresponder_subscription_not_found:
+  Unable to find a valid autoresponder subscription with these details:
+page.my_details.errors.change_company_name:
+  Unable to change company name:
+page.my_details.errors.company_name_required:
+  Please enter a company name:
+page.my_details.errors.confirm_password:
+  Please confirm your password when making changes:
+page.my_details.errors.emails_do_not_match:
+  The email addresses you entered were different:
+page.my_details.errors.enter_name:
+  Please enter a first and last name (initials are acceptable):
+page.my_details.errors.error:
+  Error:
+page.my_details.errors.fb_account_unlinking_error:
+  There was a problem unlinking your Facebook account:
+page.my_details.errors.incorrect_password:
+  The password you entered was incorrect:
+page.my_details.errors.invalid_email:
+  Please enter a valid email address:
+page.my_details.errors.list_id_not_found:
+  No list ID found:
+page.my_details.errors.offerer_or_seeker:
+  Please select whether you have a room for rent in an existing share or if you are searching for a room:
+page.my_details.errors.same_email:
+  The email addresses you entered is the same as your existing email:
+page.my_details.errors.verified_user_change_name:
+  Verified users cannot change their name:
+page.my_details.json.errors.different_passwords:
+  The passwords you entered were different:
+page.my_details.json.errors.email_in_use:
+  The email address you entered is in use by another account (please call us on %s):
+page.my_details.json.errors.fields_required:
+  You have not supplied all the relevant fields:
+page.my_details.json.errors.logged_in_error:
+  You are not logged in:
+page.my_details.json.errors.password_too_short:
+  Please enter password which is at least 4 characters long:
+page.my_details.json.responses.changes_saved_ty:
+  Thank you, your changes were saved:
+page.my_details.json.responses.changes_saved_ty_delete_ads:
+  Thank you, your changes were saved - PLEASE DELETE ANY ADS NO LONGER CURRENT:
+page.my_details.messages.alerts_stopped:
+  Your alerts have been stopped. PLEASE DELETE ANY ADS NO LONGER CURRENT:
+page.my_details.messages.autoresponder_unsubscribe:
+  Successfully unsubscribed from autoresponder list %s:
+page.my_details.messages.changes_saved:
+  Your changes were saved:
+page.my_details.messages.email_changed:
+  Your email has been changed - please click on the confirmation link we sent to that address to make your account active again:
+page.my_details.messages.password_changed:
+  Your password has been changed:
+page.my_details.messages.unlinked_fb_account:
+  Your Facebook account was successfully unlinked:
+page.my_details.messages.unsubscribed_from_newsletters:
+  You have been unsubscribed from our newsletters:
+page.my_details.messages.unsubscribed_from_tips_and_promotions:
+  You have been unsubscribed from our tips and promotions:
+page.offered_advert3.error.company_name.missing:
+  Please enter your company name:
+page.offered_advert3.error.company_name.unable_to_change:
+  Unable to change company name, please contact our support team.:
+page.offered_advert3.error.edit.not_logged_in:
+  You must be logged in to edit your advert:
+page.offered_advert3.error.fees_apply.missing:
+  Please specify if there are any broker fees:
+page.offered_advert3.error.first_name.missing:
+  Please enter your first name (you can choose not to display your last name if you wish):
+page.offered_advert3.error.gender.plural.missing:
+  Please select the gender of the current occupants:
+page.offered_advert3.error.gender.singular.missing:
+  Please select the gender of the current occupant:
+page.offered_advert3.error.inagreement:
+  You must agree to our terms and conditions before proceeding - tick the box by 'Your agreement':
+page.offered_advert3.error.last_name.missing:
+  Please enter your last name (it will not be displayed on your ad unless you tick the box below it):
+page.offered_advert3.error.login_email_and_password:
+  If you are an existing user, you must enter your password. If you are a new user, please enter the details under 'new user?':
+page.offered_advert3.error.min_age.older_than_max:
+  Your minimum age is older than your maximum:
+page.offered_advert3.error.min_preferred_age.older_than_max:
+  Your minimum preferred age is older than your maximum:
+page.offered_advert3.error.min_term.longer_than_max:
+  Your minimum stay is longer than your maximum:
+page.offered_advert3.error.name.contains_contact_details:
+  ? |-
+    Phone numbers, web addresses and email addresses are not permitted within the text of your advert (inc your name).
+    This is both to protect your privacy (as contact details will only be shown to registered users) and keep you safe from scammers.
+    Please note that all adverts posted and edited are checked by hand before being published.
+  :
+page.offered_advert3.error.new_or_existing_user:
+  ? If you are a new user, in the section 'Login information', you must fill in the details under 'New user?', otherwise if you are an existing user please fill in the details under 'Existing user?'
+  :
+page.offered_advert3.error.no_advert_id:
+  No ad id:
+page.offered_advert3.error.no_permission:
+  You don't have permission to edit this ad:
+page.offered_advert3.error.no_postcode:
+  No postcode supplied:
+page.offered_advert3.error.password.different:
+  You have entered 2 different passwords, please enter them again:
+page.offered_advert3.error.password.missing:
+  If you are a new user, you must choose a password:
+page.offered_advert3.error.place.not_logged_in:
+  Unknown error - you need to be logged in to place your ad:
+page.offered_advert3.error.postcode_invalid:
+  The postcode you entered is in the wrong format - your postcode should look something like %s:
+page.offered_advert3.error.postcode_not_found:
+  Postcode not found:
+page.offered_advert3.error.rent.incorrect:
+  ? The rent for the %s room appears to have been entered incorrectly.  Please ensure that the value is a whole number (no decimal places).
+  :
+page.offered_advert3.error.request_timed_out:
+  The request has timed out. Please re-submit:
+page.offered_advert3.error.roomper.plural.missing:
+  Please select whether the price for the %s room is per week or per month:
+page.offered_advert3.error.roomper.singular.missing:
+  Please select whether the price for the room is per week or per month:
+page.offered_advert3.error.roomprice.plural.missing:
+  Please enter the price of the %s room:
+page.offered_advert3.error.roomprice.singular.missing:
+  Please enter the price of the room:
+page.offered_advert3.error.roomstatus.missing:
+  Please select whether the room is available or taken:
+page.offered_advert3.error.scp_per.missing:
+  Please select whether the price for the property is per week or per month:
+page.offered_advert3.error.scp_price.missing:
+  Please enter a price for the property:
+page.offered_advert3.error.street_name.changed:
+  Advert addresses cannot be changed once posted:
+page.offered_advert3.error.text.contains_contact_details:
+  ? |-
+    Phone numbers, web addresses and email addresses are not permitted within the text of your advert (inc your name).
+    This is both to protect your privacy (as contact details will only be shown to registered users) and keep you safe from scammers.
+    Please note that all adverts posted and edited are checked by hand before being published.
+  :
+page.offered_advert3.error.verified_user_name_change:
+  ? |
+    Verified users cannot change their names on adverts.
+  :
+page.offered_advert3.form.amenities:
+  Amenities:
+page.offered_advert3.form.area:
+  Area:
+page.offered_advert3.form.available_from:
+  Available from:
+page.offered_advert3.form.balcony:
+  Balcony/patio:
+page.offered_advert3.form.bills_included:
+  Bills included?:
+page.offered_advert3.form.bills_included.no:
+  No:
+page.offered_advert3.form.bills_included.some:
+  Some:
+page.offered_advert3.form.bills_included.yes:
+  Yes:
+page.offered_advert3.form.cost:
+  Cost of room:
+page.offered_advert3.form.disabled_access:
+  Disabled access:
+page.offered_advert3.form.garage:
+  Garage:
+page.offered_advert3.form.garden:
+  Garden/roof terrace:
+page.offered_advert3.form.off_street_parking:
+  Parking:
+page.offered_advert3.form.per:
+  Per week of month?:
+page.offered_advert3.form.per.month:
+  Per month:
+page.offered_advert3.form.per.week:
+  Per week:
+page.offered_advert3.form.room_per.pcm:
+  pcm:
+page.offered_advert3.form.room_per.pw:
+  pw:
+page.offered_advert3.form.room_type_options.double:
+  double:
+page.offered_advert3.form.room_type_options.single:
+  single:
+page.offered_advert3.form.select_area:
+  Select area...:
+page.offered_advert3.form.street:
+  Street name:
+page.offered_advert3.form.your_advert:
+  Your advert:
+page.offered_advert3.form.your_advert.description:
+  Description:
+page.offered_advert3.form.your_advert_title:
+  Title:
+page.offered_advert3.message.advert_already_placed:
+  advert has already been placed:
+page.passwordreminder.errors.invalid_email:
+  The email you entered appears to be invalid:
+page.passwordreminder.errors.recaptcha_error:
+  There was an error with your submission. Please try again or call us:
+page.passwordreminder.errors.required_email:
+  No email address provided:
+page.passwordreminder.messages.reset_instructions_sent:
+  ? If your email address belongs to a user registered with our site, we will have sent password reset instructions to that email address
+  :
+page.passwordreminder.warnings.password_reset_sent:
+  ? We have already sent a password reminder to your email address. If you have not received it yet, please check your junk mail folder in case it has been filtered there by mistake (we advise you to add %s to your address book to avoid this in the future).
+  :
+page.passwordreset.errors.different_passwords:
+  Please enter your password again - the 2 passwords you entered were different:
+page.passwordreset.errors.password_too_short:
+  Your password must be at least 4 characters long:
+page.passwordreset.errors.request_expired:
+  Sorry, your reset password request has expired - please try again:
+page.passwordreset.errors.request_used:
+  Sorry, your reset password request has been used - please re-request if you wish to change it again:
+page.passwordreset.errors.unknown_error:
+  Sorry there was an error - please try again:
+page.post_ad_wanted.block.group_1.header:
+  Get started with your room wanted advert:
+page.post_ad_wanted.block.group_1.seeker_types.label:
+  I am / we are:
+page.post_ad_wanted.block.group_1.seeker_types.values.select_F:
+  1 female:
+page.post_ad_wanted.block.group_1.seeker_types.values.select_FF:
+  2 females:
+page.post_ad_wanted.block.group_1.seeker_types.values.select_FM:
+  1 male 1 female:
+page.post_ad_wanted.block.group_1.seeker_types.values.select_M:
+  1 Male:
+page.post_ad_wanted.block.group_1.seeker_types.values.select_MM:
+  2 males:
+page.post_ad_wanted.block.group_1.seeker_types.values.select_hint:
+  Select your gender(s)...:
+page.post_ad_wanted.block.main_header:
+  Step 1 of 2:
+page.post_ad_wanted.block.main_title.is_not_scp:
+  Post a room wanted advert:
+page.post_ad_wanted.block.main_title.is_scp:
+  Post a flat/house wanted advert:
+page.post_ad_wanted.form.RoomReq.error.required:
+  Please select your room requirements:
+page.register.html_title:
+  Register on SpareRoom:
+page.registration.error.date_of_birth.missing:
+  Please select your date of birth:
+page.registration.error.email.different:
+  Please enter your email again the 2 emails you entered were different:
+page.registration.error.email.facebook_proxymail:
+  ? Sorry, we don't accept proxy email addresses. Please enter a valid email address don't worry, we never pass on email addresses to any third parties and promise to keep your email safe
+  :
+page.registration.error.email.invalid:
+  Your email appears to be invalid please check and try again:
+page.registration.error.first_name.missing:
+  Please enter your first name:
+page.registration.error.inagreement.unticked:
+  You must agree to our terms and privacy policy before proceeding - please tick the box:
+page.registration.error.logged_in_already:
+  You are already logged in:
+page.registration.error.password.different:
+  Please enter your password again the 2 passwords you entered were different:
+page.registration.error.password.too_short:
+  Your password must be at least 4 characters long:
+page.registration.error.posttown.missing:
+  You must select your state of residence before proceeding:
+page.registration.error.usertype.missing:
+  Please select whether you are looking for a room and/or offering a room:
+page.registration.success:
+  Thank you, you have successfully registered:
+page.search.campus_search.errors.college_not_found:
+  University/College not found:
+page.search.campus_search.warnings.close_match:
+  We have found several possible matches for your search - please select one:
+page.search.edit.errors.not_logged_in:
+  You must be logged in to edit your search:
+page.search.edit.errors.unknown_error:
+  Sorry, there was a problem. Please reselect the search you wish to edit:
+page.search.errors.invalid_date_available:
+  The date you entered is in the past, please check and try again:
+page.search.errors.invalid_max_term:
+  You entered a max length of stay that is shorter than your minimum:
+page.search.errors.invalid_station_id:
+  Please select a station from the drop down menu that you wish to be within %s minutes commute from:
+page.search.errors.logged_in_required:
+  You must be logged in to save ads:
+page.search.errors.no_matches:
+  Sorry, we could not find anything matching your search term(s). Please check your spelling?:
+page.search.errors.nothing_found:
+  Nothing found.:
+page.search.errors.search_required:
+  Please enter a location, e.g. an area or postcode such as Manchester or NW1:
+page.search.errors.too_many_location_types:
+  Please enter a town/postcode OR zones OR tube line OR station to commute to:
+page.search.json.errors.no_matches:
+  No matches found:
+page.search.json.warnings.multiple_possible_matches:
+  We found several possible matches for your search:
+page.search.main_heading.room_or_flatmate:
+  Search for a Room or Flatmate:
+page.search.messages.narrow_search:
+  You may wish to narrow your search by specifying your maximum rent:
+page.search.new_search:
+  New search:
+page.search.results.broaden_criteria.age_range_req_matches.max_age:
+  Age up to %s:
+page.search.results.broaden_criteria.age_range_req_matches.min_age:
+  Age %s+:
+page.search.results.broaden_criteria.age_range_req_matches.range:
+  Age %s to %s:
+page.search.results.broaden_criteria.availability_matches:
+  Available %s:
+page.search.results.broaden_criteria.bills_inc_matches:
+  Bills included:
+page.search.results.broaden_criteria.budget_matches.max_rent.pcm:
+  up to %spcm:
+page.search.results.broaden_criteria.budget_matches.max_rent.pw:
+  up to %spw:
+page.search.results.broaden_criteria.budget_matches.min_rent.pcm:
+  From %spcm:
+page.search.results.broaden_criteria.budget_matches.min_rent.pw:
+  From %spw:
+page.search.results.broaden_criteria.budget_matches.range.pcm:
+  '%s to %spcm':
+page.search.results.broaden_criteria.budget_matches.range.pw:
+  '%s to %spw':
+page.search.results.broaden_criteria.budget_matches.top_range_matches.pcm:
+  '%spcm plus':
+page.search.results.broaden_criteria.couples_N_matches:
+  No Couples:
+page.search.results.broaden_criteria.couples_Y_matches:
+  Couples only:
+page.search.results.broaden_criteria.couples_ok_matches:
+  Couples allowed:
+page.search.results.broaden_criteria.disabled_access_matches:
+  Disabled access:
+page.search.results.broaden_criteria.double_room_matches:
+  Double rooms:
+page.search.results.broaden_criteria.ensuite_available_matches:
+  En-suite:
+page.search.results.broaden_criteria.fees_apply_matches:
+  No Fees:
+page.search.results.broaden_criteria.gay_matches:
+  LGBT Household:
+page.search.results.broaden_criteria.gender_req_matches.female:
+  Rooms for Females:
+page.search.results.broaden_criteria.gender_req_matches.male:
+  Rooms for Males:
+page.search.results.broaden_criteria.genderfilter_matches.female:
+  Female flatmates:
+page.search.results.broaden_criteria.genderfilter_matches.male:
+  Male flatmates:
+page.search.results.broaden_criteria.genderfilter_matches.mixed:
+  Male and female flatmates:
+page.search.results.broaden_criteria.landlord_live_in_matches:
+  Live with landlord:
+page.search.results.broaden_criteria.landlord_live_out_matches:
+  Not living with landlord:
+page.search.results.broaden_criteria.living_room_matches:
+  Shared living room:
+page.search.results.broaden_criteria.max_degrees_matches:
+  In my network:
+page.search.results.broaden_criteria.mon_to_fri_only_matches.offered:
+  Monday to Friday Rooms:
+page.search.results.broaden_criteria.mon_to_fri_only_matches.wanted:
+  Monday to Friday Lodgers:
+page.search.results.broaden_criteria.non_mon_to_fri_only_matches.offered:
+  Non Monday to Friday Rooms:
+page.search.results.broaden_criteria.non_mon_to_fri_only_matches.wanted:
+  Non Monday to Friday Lodgers:
+page.search.results.broaden_criteria.non_smoking_matches:
+  No Smoking:
+page.search.results.broaden_criteria.num_beds_matches.match.offered:
+  '%s bed share':
+page.search.results.broaden_criteria.num_beds_matches.match.wanted:
+  '%s bed':
+page.search.results.broaden_criteria.num_beds_matches.max.offered:
+  up to %s bed share:
+page.search.results.broaden_criteria.num_beds_matches.max.wanted:
+  up to %s:
+page.search.results.broaden_criteria.num_beds_matches.min.offered:
+  '%s bed+ share':
+page.search.results.broaden_criteria.num_beds_matches.min.wanted:
+  '%s bed+':
+page.search.results.broaden_criteria.num_beds_matches.range.offered:
+  '%s to %s bed share':
+page.search.results.broaden_criteria.num_beds_matches.range.wanted:
+  '%s to %s bed':
+page.search.results.broaden_criteria.num_rooms_matches:
+  '%s Rooms for rent':
+page.search.results.broaden_criteria.parking_available_matches:
+  Parking available:
+page.search.results.broaden_criteria.pets_ok_matches:
+  Pets considered:
+page.search.results.broaden_criteria.photo_matches:
+  Photo ads only:
+page.search.results.broaden_criteria.posted_by_agents_matches:
+  Agent ads only:
+page.search.results.broaden_criteria.posted_by_private_landlords_matches:
+  No agents:
+page.search.results.broaden_criteria.rooms_for_who_matches.couples:
+  Rooms for Couples:
+page.search.results.broaden_criteria.rooms_for_who_matches.female:
+  Rooms for Females:
+page.search.results.broaden_criteria.rooms_for_who_matches.male:
+  Rooms for Males:
+page.search.results.broaden_criteria.share_type_matches.professional:
+  Professional:
+page.search.results.broaden_criteria.share_type_matches.student:
+  Student:
+page.search.results.broaden_criteria.short_lets_considered_matches:
+  Short term lets:
+page.search.results.broaden_criteria.showme_1bed_matches:
+  Studio/1 bed flats:
+page.search.results.broaden_criteria.showme_buddyup_matches:
+  Whole properties (suitable for sharing):
+page.search.results.broaden_criteria.showme_rooms_matches:
+  Rooms in existing shares:
+page.search.results.broaden_criteria.single_room_matches:
+  Single rooms:
+page.search.results.broaden_criteria.smoking_ok_matches:
+  Smoking allowed:
+page.search.results.broaden_criteria.terms_matches.max_term:
+  Up to %s months stay:
+page.search.results.broaden_criteria.terms_matches.min_term:
+  '%s months stay':
+page.search.results.broaden_criteria.terms_matches.min_term_plus:
+  '%s+ months stay':
+page.search.results.broaden_criteria.terms_matches.range:
+  '%s-%s months stay':
+page.search.results.broaden_criteria.vegetarians_matches:
+  Vegetarians preferred:
+page.search.results.narrow_your_search_criteria.ensuite_available_matches:
+  Rooms with en-suite:
+page.search.results.narrow_your_search_criteria.female_flatmates.offered:
+  Sharing with Females:
+page.search.results.narrow_your_search_criteria.gay_matches.offered:
+  Gay/Lesbian shares:
+page.search.results.narrow_your_search_criteria.gay_matches.wanted:
+  Gay/Lesbian:
+page.search.results.narrow_your_search_criteria.male_flatmates.offered:
+  Sharing with Males:
+page.search.results.narrow_your_search_criteria.mixed_household:
+  Mixed Household:
+page.search.results.narrow_your_search_criteria.mon_to_fri_only_matches.offered:
+  Mon-Fri Lets:
+page.search.results.narrow_your_search_criteria.mon_to_fri_only_matches.wanted:
+  Mon-Fri Lodgers:
+page.search.results.narrow_your_search_criteria.multiple_bed_matches:
+  '%s beds':
+page.search.results.narrow_your_search_criteria.non_mon_to_fri_only_matches.offered:
+  Non Mon-Fri Lets:
+page.search.results.narrow_your_search_criteria.non_mon_to_fri_only_matches.wanted:
+  Non Mon-Fri Lodgers:
+page.search.results.narrow_your_search_criteria.non_smoking:
+  Non Smoking:
+page.search.results.narrow_your_search_criteria.one_bed_matches:
+  1 beds and studios:
+page.search.results.narrow_your_search_criteria.share_type_prof_matches:
+  Professionals:
+page.search.results.narrow_your_search_criteria.share_type_stud_matches:
+  Students:
+page.search.results.narrow_your_search_criteria.short_lets_considered_matches:
+  Short Lets:
+page.search.results.narrow_your_search_criteria.smoking:
+  Smoking:
+page.search.results.narrow_your_search_criteria.specify_age_range:
+  Specify age range:
+page.search.results.narrow_your_search_criteria.specify_available_date:
+  Specify a move in date:
+page.search.results.narrow_your_search_criteria.specify_household_size:
+  Specify size of household:
+page.search.results.narrow_your_search_criteria.specify_keyword:
+  Specify keyword search:
+page.search.results.narrow_your_search_criteria.specify_num_rooms:
+  Specify no. of rooms:
+page.search.results.narrow_your_search_criteria.specify_rent_amount:
+  Specify rent amount:
+page.search.title.find_rooms_in_shared_accommodation:
+  Find rooms for rent in shared accommodation:
+page.search.warnings.more_expensive_ads:
+  No adverts exactly match your search, but these were a little more expensive.:
+page.search.warnings.multiple_possible_matches:
+  We have found several possible matches for your search - please tick which is correct below, or go back to start again:
+page.search.warnings.nearby_ads:
+  No adverts exactly match your search, but these are nearby (we searched up to around %s miles away).:
+page.search_results.main_heading.rooms_for_rent_in:
+  Rooms for Rent in %s:
+page.search_results.number_of_results:
+  Showing %s of %s results:
+page.search_results.refine_search:
+  Refine search:
+page.search_results.save:
+  Save:
+page.search_results.save_search_prompt:
+  It's free and we'll email you new rooms as they come in.:
+page.search_results.set_up_email_alerts:
+  Set up email alerts:
+page.search_results.show_results_on_a_map:
+  Show results on a map:
+page.search_results.sort_by:
+  Sort by:
+page.upload_photos.errors.chunk_save_error:
+  Error while trying to save chunk:
+page.upload_photos.errors.invalid_advert_ref:
+  Invalid advert ref:
+page.upload_photos.errors.invalid_photo_ref:
+  Invalid photo ref:
+page.upload_photos.errors.photo_limit_exceeded:
+  You have reached the maximum amount of photos:
+page.upload_photos.errors.unknown_save_error:
+  Sorry. we were unable to save your photo at this time.:
+page.upload_photos.errors.unknown_upload_error:
+  Error with photo upload:
+page.upload_photos.messages.caption_updated:
+  Caption updated:
+page.upload_photos.messages.chunk_uploaded_successfully:
+  Chunk uploaded successfully:
+page.upload_photos.messages.main_photo_changed:
+  Main photo changed:
+page.upload_photos.messages.photo_added_to_advert:
+  Photo added to advert:
+page.upload_photos.messages.photo_deleted:
+  Photo deleted:
+page.upload_photos.messages.photo_does_not_exist:
+  That photo doesn't exist:
+page.upload_photos.messages.photo_removed_from_advert:
+  Photo removed from advert:
+page.upload_photos.messages.photo_uploaded_successfully:
+  Photo uploaded successfully:
+page.upload_photos.messages.photos_sorted:
+  Photos sorted:
+page.upload_photos.messages.set_as_main_profile_photo:
+  Set as main profile photo:
+page.upload_photos.messages.sizing_recommendation:
+  ? Photo uploaded successfully, but we recommend re-uploading the photo at a larger size of at least %s for optimum quality. (Its current dimensions are %sx%s)
+  :
+page.upload_photos.warning.photo_infected:
+  The photo appears to be infected.:
+page.upload_photos.warnings.file_size_too_large:
+  File size too large. The maximum size is %s MB:
+page.upload_photos.warnings.invalid_photo_format:
+  Invalid photo format. Please upload a valid JPEG, PNG or GIF.:
+page.upload_photos.warnings.profile_photo_removed:
+  Photo removed from advert. If you want to remove it from your profile, you can do so from the 'edit my details' page.:
+page.wanted_listing_step1.error.no_email:
+  Please enter your email:
+page.wanted_listing_step1.error.no_sex:
+  Please describe who you are from the first drop down menu - e.g. 1 male, 1 female:
+page.wanted_listing_step2.error.addresses_in_ad:
+  ? |-
+    Phone numbers, web addresses and email addresses are not permitted within the text of your advert (inc your name).
+    This is both to protect your privacy (as contact details will only be shown to registered users) and keep you safe from scammers.
+    Please note that all adverts posted and edited are checked by hand before being published.
+  :
+page.wanted_listing_step2.error.both_details_provided:
+  ? If you are a new user, you must fill in the details under 'New user?', otherwise if you are an existing user please fill in the details under 'Existing user?'
+  :
+page.wanted_listing_step2.error.budget:
+  Please enter your budget (the total you can afford to pay %s):
+page.wanted_listing_step2.error.budget_invalid:
+  Your budget appears to be invalid:
+page.wanted_listing_step2.error.budget_per:
+  Please select whether your budget is per week or per month:
+page.wanted_listing_step2.error.combined_budget:
+  Please enter your combined budget (the total you can both pay %s):
+page.wanted_listing_step2.error.first_name:
+  Please enter your first name:
+page.wanted_listing_step2.error.inagreement:
+  You must agree to our terms and conditions before proceeding - tick the box by 'Your agreement':
+page.wanted_listing_step2.error.location_select:
+  Please select where you would like to search for rooms:
+page.wanted_listing_step2.error.min_term_gt_max:
+  Minimum term can't be greater than the maximum term:
+page.wanted_listing_step2.error.neither_details_provided:
+  ? If you are a new user, in the section 'Login information', you must fill in the details under 'New user?', otherwise if you are an existing user please fill in the details under 'Existing user?'
+  :
+page.wanted_listing_step2.error.no_password:
+  If you are an existing user, you must enter your password. If you are a new user, please enter the details under 'new user?':
+page.wanted_listing_step2.error.password:
+  If you are a new user, you must choose a password:
+page.wanted_listing_step2.error.passwords_dont_match:
+  You have entered 2 different passwords, please enter them again:
+page.wanted_listing_step2.error.select_age:
+  Please select your age:
+page.wanted_listing_step2.error.select_ages:
+  Please select your ages:
+page.wanted_listing_step2.warning.non_scp.too_many_areas:
+  ? You have selected too many areas (%s so far). We recommend narrowing down your choice of areas because people with rooms are more likely to respond to adverts with a more targeted list of areas (plus you are likely to be overwhelmed with the number of matching ads if you choose to receive email alerts)
+  :
+page.wanted_listing_step2.warning.scp.too_many_areas:
+  ? You have selected too many areas (%s so far). We recommend narrowing down your choice of areas because people with flats are more likely to respond to adverts with a more targeted list of areas (plus you are likely to be overwhelmed with the number of matching ads if you choose to receive email alerts)
+  :
+panel.featured_ads.benefits.3p_per_click:
+  From just 3p per click:
+panel.featured_ads.benefits.limit_daily_spend:
+  Limit your daily spend:
+panel.featured_ads.benefits.pay_when_clicked:
+  Only pay when ad is clicked:
+panel.featured_ads.benefits.top_of_results:
+  Be top of the search results:
+panel.featured_ads.benefits.two_minutes_setup:
+  Only 2 minutes to set up!:
+panel.featured_ads.button.find_out_more:
+  Find out more:
+panel.featured_ads.button.get_started:
+  Get started:
+panel.featured_ads.heading.get_more_enquiries_with_featured_ads:
+  Get more enquiries with Featured Ads:
+panel.featured_ads.image_alt.featured_ads:
+  Get more enquiries with Featured ads:
+panel.search:
+  Search:
+panel.search.heading.where:
+  Where?:
+panel.search.input_hint.where_are_you_searching:
+  Where are you searching:
+panel.search.link.advanced_search:
+  Advanced search:
+panel.search.option.rooms_for_rent:
+  Rooms for rent:
+panel.search.option.rooms_wanted:
+  Rooms Wanted:
+panel.search.tooltip.rooms_in_existing_shares:
+  Rooms in existing shares:
+panel.stay_safe.heading.stay_safe:
+  Stay safe:
+panel.stay_safe.tip.contact_details:
+  ? 'TIP:
+  :
+panel.stay_safe.tip.view_before_paying:
+  'TIP:
+panel.upgrade.basic.benefit.double_your_enquiries:
+  Double your enquiries:
+panel.upgrade.basic.benefit.free_to_contact:
+  Free for ALL to contact you immediately:
+panel.upgrade.basic.benefit.higher_ranking_ad:
+  Higher ranking ad:
+panel.upgrade.basic.benefit.immediate_contact:
+  Don't wait 7 days – contact ALL ads immediately.:
+panel.upgrade.basic.benefits_of_upgrading:
+  Benefits of upgrading:
+panel.upgrade.basic.bold_ad:
+  A Bold Ad:
+panel.upgrade.basic.early_bird_access:
+  Early Bird Access:
+panel.upgrade.basic.see_example:
+  See example:
+panel.upgrade.basic.your_account_is_a_basic_account:
+  Your account is a basic account:
+panel.upgrade.button.buy_extra_listings:
+  Buy extra listings:
+panel.upgrade.button.renew_upgrade:
+  Renew upgrade:
+panel.upgrade.button.upgrade_now:
+  Upgrade now:
+panel.upgrade.heading.your_account_is_upgraded:
+  Your account is upgraded:
+panel.upgrade.upgraded.expires:
+  'Expires:
+panel.upgrade.upgraded.listings_upgrade:
+  listings upgrade:
+panel.upgrade.upgraded.live_ads:
+  'Live ads:
+panel.upgrade.upgraded.one_listing_upgrade:
+  1 listing upgrade:
+panel.upgrade.upgraded.package:
+  'Package:
+profile.icon.img_alt.photograph_of:
+  Photograph of:
+push_notification.new_message.body:
+  You have a new message from %s:
+push_notification.new_message.title:
+  New message:
+search.advert_ref:
+  Advert ref#:
+search.advert_ref.button.go:
+  Go:
+search.advert_ref.heading.find_an_ad:
+  Find an ad:
+second:
+  second:
+seek:
+  seek:
+seeks:
+  seeks:
+seventh:
+  seventh:
+sixth:
+  sixth:
+social.share:
+  share:
+social_media.follow_us_on_facebook:
+  Follow us on Facebook:
+srp_card.free_to_contact:
+  Free to contact:
+srp_card.more_info:
+  More info:
+srp_card.new_today:
+  New today:
+srp_card.save:
+  Save:
+srp_card.thumbnail_img.main_photo:
+  Main photo:
+tenth:
+  tenth:
+third:
+  third:
+twelfth:
+  twelfth:
+upgrade.standard.4_week.selling_points.1:
+  89p per day:
+upgrade.standard.4_week.selling_points.2:
+  Pause your upgrade (once per 4 week saver):
+upgrade.standard.4_week.selling_points.3:
+  The stress-free option – give yourself plenty of time:
+upgrade.standard.4_week.title:
+  4 week saver:
+upgrade.standard.benefits.heading:
+  Upgrading gets you the following...:
+video.promo.heading.improve_ad_with_a_video:
+  Improve your ad with a video:
+video.promo.link.find_out_more:
+  Find out more:
+video.promo.tip.uploading_is_quick_and_easy:
+  Uploading a video is quick and easy - you can do it straight from your mobile, tablet or laptop.:
+wanted_advert.describe_gender.couple:
+  couple:
+wanted_advert.describe_gender.female:
+  female:
+wanted_advert.describe_gender.females:
+  females:
+wanted_advert.describe_gender.friends:
+  friends:
+wanted_advert.describe_gender.male:
+  male:
+wanted_advert.describe_gender.males:
+  males:
+wanted_advert.describe_gender_and_occupation.female_student:
+  female student:
+wanted_advert.describe_gender_and_occupation.male_student:
+  male student:
+wanted_advert.describe_gender_and_occupation.professional_couple:
+  professional couple:
+wanted_advert.describe_gender_and_occupation.professional_female:
+  professional female:
+wanted_advert.describe_gender_and_occupation.professional_females:
+  professional females:
+wanted_advert.describe_gender_and_occupation.professional_friends:
+  professional friends:
+wanted_advert.describe_gender_and_occupation.professional_male:
+  professional male:
+wanted_advert.describe_gender_and_occupation.professional_males:
+  professional males:
+wanted_advert.describe_gender_and_occupation.student_couple:
+  student couple:
+wanted_advert.describe_gender_and_occupation.student_females:
+  student females:
+wanted_advert.describe_gender_and_occupation.student_friends:
+  student friends:
+wanted_advert.describe_gender_and_occupation.student_males:
+  student males:
+wanted_advert.describe_occupation.professional:
+  professional:
+wanted_advert.describe_occupation.student:
+  student:
+wanted_advert.describe_rooms_sought.double_room:
+  double room:
+wanted_advert.describe_rooms_sought.multiple_rooms:
+  '%s rooms':
+wanted_advert.describe_rooms_sought.multiple_rooms_or_twin:
+  '%s rooms or twin':
+wanted_advert.describe_rooms_sought.single_or_double:
+  single or double:
+wanted_advert.room_req.double_room:
+  a double room:
+wanted_advert.room_req.double_room_partners:
+  a double room (we are partners):
+wanted_advert.room_req.multiple_double_rooms:
+  '%s double rooms':
+wanted_advert.room_req.multiple_rooms:
+  '%s rooms':
+wanted_advert.room_req.single_or_double_room:
+  a single or double room:
+wanted_advert.room_req.twin_room:
+  a twin room or 2 rooms:
+website_features.add_media_desc:
+  Add Media Description:
+website_features.add_media_title:
+  Add Media Title:
+website_features.email_alerts_desc:
+  Email Alerts Description:
+website_features.email_alerts_title:
+  Email Alerts Title:
+website_features.great_description_title:
+  Great Description Title:
+website_features.great_description_title_offerer:
+  Great Description Description Offerer:
+website_features.great_description_title_seeker:
+  Great Description Description Seeker:
+website_features.info_advice_desc:
+  Info and Advice Desc:
+website_features.info_advice_link_text:
+  Info and Advice Link Text:
+website_features.info_advice_title:
+  Info and Advice Title:
+website_features.manage_your_ads:
+  Manage your ads on SpareRoom:
+website_features.on_the_go_desc:
+  On the go desc:
+website_features.on_the_go_link_text:
+  On the go link text:
+website_features.on_the_go_title:
+  One the go title:
+website_features.people_desc:
+  People Desc:
+website_features.people_title:
+  People Title:
+website_features.safety_desc:
+  Safety Description:
+website_features.safety_title:
+  Safety Title:
+website_features.save_searches_desc:
+  Save Your Searches Desc:
+website_features.save_searches_title:
+  Save Your Searches Title:
+website_features.three_minutes_desc:
+  Three Minutes Desc:
+website_features.three_minutes_title:
+  Three Minutes Title:
+website_features.title_most_of_ad:
+  Make the most of your ad:
+website_features.title_most_of_ads:
+  Make the most of your ads:
+website_features.title_most_of_spareroom:
+  Make the most of SpareRoom:
+website_features.title_why_use:
+  Why use SpareRoom?:
+website_features.up_to_date_desc:
+  Up To Date Desc:
+website_features.up_to_date_title:
+  Up To Date Title:
+website_features.view_my_ads:
+  View my ads:
