@@ -16,6 +16,16 @@
     const listeners = {};
 
     doReplace(document.body);
+    fetch(`http://localhost:8111/localisations`)
+        .then((response) => {
+            response.json().then(locs => {
+                for (let loc of locs) {
+                    setLocalisation(loc);
+                }
+            })
+                .catch(console.log);
+        })
+        .catch(console.log);
 
     new MutationObserver(mutations => {
         for (const m of mutations) {
@@ -66,14 +76,6 @@
             node.parentNode.insertBefore(bNode, el);
 
             registerElement(context, args, el);
-            fetch(`http://localhost:8111/localisation/${context}`)
-                .then((response) => {
-                    response.json().then(l => {
-                        setLocalisation(l);
-                    })
-                        .catch(console.log);
-                })
-                .catch(console.log);
         }
     }
 
@@ -94,6 +96,10 @@
             }
             el.insertBefore(editButton(loc.context), el.firstChild.nextSibling);
         });
+
+        if (localisations[context]) {
+            setLocalisation(localisations[context]);
+        }
     }
 
     function registerListener(context, onUpdate) {

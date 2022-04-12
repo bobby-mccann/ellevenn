@@ -90,8 +90,17 @@ func main() {
 
 	router := mux.NewRouter().StrictSlash(true)
 	router.Methods("GET").Path("/localisation/{context}").HandlerFunc(GetLocalisation)
+	router.Methods("GET").Path("/localisations").HandlerFunc(GetLocalisations)
 	router.Methods("POST").Path("/localisation").HandlerFunc(PostLocalisation)
 	log.Fatal(http.ListenAndServe(":8111", router))
+}
+
+func GetLocalisations(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
+	w.Header().Set("Access-Control-Allow-Origin", "*")
+	w.Header().Set("Access-Control-Allow-Methods", "GET")
+	w.WriteHeader(http.StatusOK)
+	_ = json.NewEncoder(w).Encode(y)
 }
 
 func GetLocalisation(w http.ResponseWriter, r *http.Request) {
