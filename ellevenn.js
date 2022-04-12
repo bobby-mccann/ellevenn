@@ -19,7 +19,7 @@
     fetch(`http://localhost:8111/localisations`)
         .then((response) => {
             response.json().then(locs => {
-                for (let loc of locs) {
+                for (let loc of Object.values(locs)) {
                     setLocalisation(loc);
                 }
             })
@@ -37,8 +37,10 @@
 
     function setLocalisation(loc) {
         localisations[loc.context] = loc;
-        for (let l of listeners[loc.context]) {
-            l(loc);
+        if (listeners[loc.context]) {
+            for (let l of listeners[loc.context]) {
+                l(loc);
+            }
         }
     }
 
@@ -51,7 +53,7 @@
             },
         );
 
-        const regex = /\|((?:\w+\.)+\w+) \[(?:([^|]+)\|)*([^|]+)?]\|/;
+        const regex = /\|((?:[^|]+\.)*\w+) \[(?:([^|]+)\|)*([^|]+)?] \1\|/;
         let node;
         // For each text node on the page:
         while (node = walker.nextNode()) {
@@ -61,7 +63,7 @@
             const context = match[1];
             const args = match.slice(2).filter(v => v !== undefined);
 
-            const orig = `|${context} [${args.join('|')}]|`;
+            const orig = `|${context} [${args.join('|')}] ${context}|`;
             const [before, after] = text.split(orig);
 
             node.nodeValue = "";
